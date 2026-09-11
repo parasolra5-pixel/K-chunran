@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% assign data = site.data.varieties[page.variety_id] %}
+
+# {{ data.name_ko }} ({{ data.name_hanja }})
+
+## 개요
+{{ content }}
+
+---
+
+## 품종 분류 체계
+- **대분류:** {{ data.type }}
+- **세부 분류:** {{ data.characteristics.leaf_shape }}
+- **유통 시장 분류:** {{ data.registration_number }} / {{ data.market_info }}
+
+---
+
+## 주요 특징 및 엽성
+- **잎 형태:** {{ data.characteristics.leaf_shape }}
+- **무늬 패턴:** {{ data.characteristics.pattern }}
+- **테두리/배골:** {{ data.characteristics.margin }}
+- **성장 속도:** {{ data.characteristics.growth_rate }}
+
+---
+
+## AI 데이터셋 라벨링
+{% for tag in data.ai_dataset_tags %}
+- `#{{ tag }}`
+{% endfor %}
