@@ -13,4 +13,6 @@ title: "대한민국 춘란(K-Chunran) - 지식 도감 & AI 데이터베이스"
 - **유통 분류:** 명감 등록품 / 주거래 대중품 / 유전자 미발현품
 
 ## 등록 품종 목록
-- [호정(湖頂) - 주거래 대중 중투호 분석](./yeobye/jungtu/2026/09/12/hojung.html)
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
