@@ -1,5 +1,14 @@
+# 대분류
 yeobye: "엽예품"
-danyeop_bokryun: "단엽복륜"
+
+# 세부 품종 및 무늬 특성 (난계 표준 용어)
+danyeop: "단엽"
 jungtu: "중투호"
+bokryun: "복륜"
+danyeop_bokryun: "단엽복륜"
+danyeop_jungtu: "단엽중투"
+sapiban: "사피반"
+
+# 시장 유통 상태
 active_trade: "활발한 유통"
 premium_trade: "프리미엄 거래"
