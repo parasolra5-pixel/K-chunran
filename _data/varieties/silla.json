@@ -4,13 +4,13 @@
   "chinese_name": "新羅",
   "registration_number": "명감 등록품",
   "primary_category": "yeobye",
-  "sub_category": "danbyeop_jungtu",
+  "sub_category": "danbyeop_bokryun",
   "market_status": "premium_trade",
   "features": {
     "leaf": {
-      "type": "단엽성 중투호",
-      "color": "극황색 중투 무늬",
-      "texture": "후육질의 단엽성이며 녹색 배골이 깊고 기화성을 띰"
+      "type": "단엽성 복륜",
+      "color": "단정하고 깊은 백색/황백색 복륜 무늬",
+      "texture": "후육질의 단엽성이며 옥아진 자태와 깊은 배골을 띰"
     },
     "flower": {
       "type": "화예 미발현 / 엽예 전용 감정",
@@ -19,12 +19,12 @@
   },
   "market_info": {
     "trade_volume": "중상",
-    "target_purchaser": "한국춘란 엽예품을 대표하는 명품 소장가 주거래 품종"
+    "target_purchaser": "한국춘란 엽예품 복륜을 대표하는 명품 소장가 주거래 품종"
   },
   "ai_dataset_tags": [
     "단엽",
-    "중투호",
-    "극황색",
+    "복륜",
+    "단엽복륜",
     "명감등록품",
     "엽예품"
   ]
