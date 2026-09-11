@@ -1,0 +1,52 @@
+{
+  "categories": {
+    "main_categories": [
+      {
+        "id": "yeobye",
+        "name": "엽예품",
+        "description": "잎의 무늬, 자태, 질감을 감정하는 분류",
+        "sub_categories": [
+          {"id": "jungtu", "name": "중투/중투호"},
+          {"id": "bokryun", "name": "복륜"},
+          {"id": "danyeob", "name": "단엽"},
+          {"id": "seoban", "name": "서반/사반"},
+          {"id": "sanban", "name": "산반"}
+        ]
+      },
+      {
+        "id": "hwaye",
+        "name": "화예품",
+        "description": "꽃의 색상, 피는 모양, 혀(설판) 모양을 감정하는 분류",
+        "sub_categories": [
+          {"id": "honghwa", "name": "홍화/자화"},
+          {"id": "hwanghwa", "name": "황화/주금화"},
+          {"id": "sosim", "name": "소심"},
+          {"id": "boksaek", "name": "복색화/중투화"},
+          {"id": "gihwa", "name": "기화/두화"}
+        ]
+      },
+      {
+        "id": "gyeongbi",
+        "name": "겸비품",
+        "description": "잎의 무늬(엽예)와 꽃의 특성(화예)을 모두 갖춘 상위 품종"
+      }
+    ],
+    "market_categories": [
+      {
+        "id": "hall_of_fame",
+        "name": "명감 등록품",
+        "desc": "등록협회 명감 상단 등재품 (소장용·희귀 명품)"
+      },
+      {
+        "id": "active_trade",
+        "name": "주거래 대중품",
+        "desc": "실제 난원 및 경매장에서 매매 회전율이 높은 실속형"
+      },
+      {
+        "id": "unexpressed_genetics",
+        "name": "유전자 미발현품",
+        "desc": "사계 등 후발성 무늬 유전 소질을 보유한 데이터군"
+      }
+    ]
+  }
+}
