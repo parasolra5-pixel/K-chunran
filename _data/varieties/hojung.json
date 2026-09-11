@@ -1,16 +1,16 @@
 {
   "id": "hojung",
   "name": "호정",
-  "chinese_name": "湖頂",
-  "registration_number": "대한민국 난 등록협회 등록품",
+  "chinese_name": "湖亭",
+  "registration_number": "명감 등록품",
   "primary_category": "yeobye",
-  "sub_category": "jungtu",
-  "market_status": "active_trade",
+  "sub_category": "danyeop_jungtu",
+  "market_status": "premium_trade",
   "features": {
     "leaf": {
-      "type": "중투호",
-      "color": "갓이 깊고 기부가 맑은 황색 무늬",
-      "texture": "육질이 두껍고 잎 끝이 라운드형으로 마무리됨"
+      "type": "단엽성 중투호",
+      "color": "선명한 황백색 중투 무늬",
+      "texture": "후육질의 단엽이며 엽성이 매우 단정함"
     },
     "flower": {
       "type": "화예 미발현 / 엽예 전용 감정",
@@ -18,14 +18,14 @@
     }
   },
   "market_info": {
-    "trade_volume": "상",
-    "target_purchaser": "초심자 입문용 및 중급 소장가 주거래 품종"
+    "trade_volume": "중상",
+    "target_purchaser": "한국춘란 단엽중투의 대표적인 명품 품종"
   },
   "ai_dataset_tags": [
-    "중투호",
-    "엽예품",
-    "황색중투",
-    "등록품",
-    "대중품"
+    "단엽",
+    "중투",
+    "단엽중투",
+    "명감등록품",
+    "엽예품"
   ]
 }
