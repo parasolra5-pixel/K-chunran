@@ -3,12 +3,12 @@ yeobye: "엽예품"
 
 # 세부 품종 및 무늬 특성 (난계 표준 용어)
 danyeop: "단엽"
-jungtu: "중투호"
+jungtu: "중투호"       # '중투' 또는 '중투호'로 표준화
 bokryun: "복륜"
 danyeop_bokryun: "단엽복륜"
 danyeop_jungtu: "단엽중투"
 sapiban: "사피반"
 
 # 시장 유통 상태
-active_trade: "활발한 유통"
-premium_trade: "프리미엄 거래"
+general_trade: "일반거래"    # 'general_trade' 키와 한글 매핑 추가
+premium_trade: "일반 중대중품/애호가 거래"  # 프리미엄 거품을 뺀 실제 유통 상태로 수정
