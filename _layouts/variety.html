@@ -15,7 +15,7 @@ layout: default
 <ul>
   <li><strong>대분류:</strong> {{ d.primary_category }}</li>
   <li><strong>세부 분류:</strong> {{ d.sub_category }}</li>
-  <li><strong>유통 등록번호:</strong> {{ d.registration_number }}</li>
+  <li><strong>유통 등록:</strong> {{ d.registration_number }}</li>
   <li><strong>시장 상태:</strong> {{ d.market_status }}</li>
 </ul>
 
@@ -24,7 +24,7 @@ layout: default
 <h2>주요 특징 및 엽성</h2>
 <ul>
   <li><strong>잎 형태:</strong> {{ d.features.leaf.type }}</li>
-  <li><strong>잎 색상/무늬:</strong> {{ d.features.leaf.color }}</li>
-  <li><strong>잎 질감:</strong> {{ d.features.leaf.texture }}</li>
-  <li><strong>꽃(화예) 정보:</strong> {{ d.features.flower.type }} (색상: {{ d.features.flower.color }})</li>
+  <li><strong>색상/무늬:</strong> {{ d.features.leaf.color }}</li>
+  <li><strong>질감:</strong> {{ d.features.leaf.texture }}</li>
+  <li><strong>화예 정보:</strong> {{ d.features.flower.type }}</li>
 </ul>
