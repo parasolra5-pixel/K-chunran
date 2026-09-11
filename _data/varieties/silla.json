@@ -1,15 +1,24 @@
 {
   "id": "silla",
-  "name_ko": "신라",
-  "name_hanja": "新羅",
+  "name": "신라",
+  "chinese_name": "新羅",
   "registration_number": "명감 등록품",
-  "type": "엽예품",
-  "characteristics": {
-    "leaf_shape": "단엽성 중투호",
-    "pattern": "극황색 중투",
-    "margin": "녹색 배골이 깊고 기화성을 띰",
-    "growth_rate": "보통"
+  "primary_category": "yeobye",
+  "sub_category": "danbyeop_jungtu",
+  "market_status": "premium_trade",
+  "features": {
+    "leaf": {
+      "type": "단엽성 중투호",
+      "color": "극황색 중투 무늬",
+      "texture": "후육질의 단엽성이며 녹색 배골이 깊고 기화성을 띰"
+    },
+    "flower": {
+      "type": "화예 미발현 / 엽예 전용 감정",
+      "color": "-"
+    }
   },
-  "market_info": "한국춘란 엽예품을 대표하는 명품 단엽중투로 높은 유통 가치 유지",
-  "ai_dataset_tags": ["단엽", "중투호", "극황색", "명감등록품", "엽예품"]
+  "market_info": {
+    "trade_volume": "중상",
+    "target_purchaser": "한국춘란 엽예품을 대표하는 명품 소장가 주거래 품종"
+  }
 }
