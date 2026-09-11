@@ -20,5 +20,12 @@
   "market_info": {
     "trade_volume": "상",
     "target_purchaser": "초심자 입문용 및 중급 소장가 주거래 품종"
-  }
+  },
+  "ai_dataset_tags": [
+    "중투호",
+    "엽예품",
+    "황색중투",
+    "등록품",
+    "대중품"
+  ]
 }
