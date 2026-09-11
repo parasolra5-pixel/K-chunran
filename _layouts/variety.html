@@ -4,6 +4,32 @@ layout: default
 
 {% assign d = site.data.varieties[page.variety_id] %}
 
+<!-- 대분류 한글 매핑 -->
+{% if d.primary_category == 'yeobye' %}
+  {% assign primary_kr = '엽예품' %}
+{% else %}
+  {% assign primary_kr = d.primary_category %}
+{% endif %}
+
+<!-- 세부 분류 한글 매핑 -->
+{% if d.sub_category == 'danbyeop_jungtu' %}
+  {% assign sub_kr = '단엽중투' %}
+{% elsif d.sub_category == 'jungtu' %}
+  {% assign sub_kr = '중투호' %}
+{% else %}
+  {% assign sub_kr = d.sub_category %}
+{% endif %}
+
+<!-- 시장 상태 한글 매핑 -->
+{% if d.market_status == 'premium_trade' %}
+  {% assign status_kr = '프리미엄 거래' %}
+{% elsif d.market_status == 'active_trade' %}
+  {% assign status_kr = '활발한 유통' %}
+{% else %}
+  {% assign status_kr = d.market_status %}
+{% endif %}
+
+
 <h1>{{ d.name }} ({{ d.chinese_name }})</h1>
 
 <h2>개요</h2>
@@ -13,10 +39,10 @@ layout: default
 
 <h2>품종 분류 체계</h2>
 <ul>
-  <li><strong>대분류:</strong> {{ d.primary_category }}</li>
-  <li><strong>세부 분류:</strong> {{ d.sub_category }}</li>
+  <li><strong>대분류:</strong> {{ primary_kr }}</li>
+  <li><strong>세부 분류:</strong> {{ sub_kr }}</li>
   <li><strong>유통 등록:</strong> {{ d.registration_number }}</li>
-  <li><strong>시장 상태:</strong> {{ d.market_status }}</li>
+  <li><strong>시장 상태:</strong> {{ status_kr }}</li>
 </ul>
 
 <hr>
