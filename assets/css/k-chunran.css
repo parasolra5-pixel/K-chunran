@@ -85,7 +85,7 @@ a { color: inherit; }
   display: flex;
   align-items: stretch;
   min-height: 54px;
-  gap: 8px;
+  gap: 18px;
 }
 
 .kc-nav-group {
