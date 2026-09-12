@@ -2,6 +2,7 @@
   "id": "hojung",
   "name": "호정",
   "hanja": "湖亭",
+  "cultivar_class": "danyeopseong_jungtu",
 
   "registration": {
     "status": "명감 등록품",
@@ -13,7 +14,6 @@
   "classification": {
     "leaf_form": ["danyeop"],
     "pattern": ["jungtu"],
-    "pattern_modifier": ["jungtuho"],
     "leaf_tip": ["wondu"],
     "pattern_position": [],
     "pattern_timing": null
@@ -51,7 +51,7 @@
   "ai": {
     "human_labels": [],
     "tags": [],
-    "notes": "호정은 단엽중투호로 확인되며, 기존 자료의 '중투호반' 표현은 canonical 분류에서 사용하지 않음"
+    "notes": "호정은 단엽성중투로 표시하며, 세부 형질은 classification에 독립적으로 보존함"
   },
 
   "sources": []
