@@ -1,31 +1,58 @@
 {
+  "id": "sebo",
   "name": "세보",
-  "chinese_name": "世寶",
-  "primary_category": "yeobye",
-  "sub_category": "jungtu",
-  "market_status": "general_trade",
-  "registration_number": "대한민국 난 등록협회 명명품 (1996년 등록)",
-  "market_info": {
-    "target_purchaser": "일반 애호가 및 중투호 소장가",
-    "trade_volume": "중"
+
+  "registration": {
+    "status": "명명품",
+    "number": null,
+    "authority": "대한민국 난 등록협회",
+    "year": 1996
   },
-  "features": {
+
+  "classification": {
+    "leaf_form": ["ipyeop"],
+    "pattern": ["jungtu"],
+    "pattern_modifier": ["jungtuho"],
+    "leaf_tip": ["dundu"],
+    "pattern_position": [],
+    "pattern_timing": null
+  },
+
+  "traits": {
     "leaf": {
-      "type": "입엽성 중투호 (중압중투)",
-      "tip": "둔두 (완만하고 단정한 형태)",
-      "color": "짙은 녹색 잎 바탕에 선명하게 발현되는 백황색 중투호",
-      "texture": "강건한 인상의 입엽성 형태"
+      "length": null,
+      "width": null,
+      "thickness": null,
+      "form": "입엽성",
+      "tip": "둔두",
+      "texture": "강건한 인상의 입엽성 형태",
+      "base_color": "짙은 녹색",
+      "variegation_color": "백황색",
+      "notes": "중투호로 설명되며, 기존 자료의 '중압중투' 표현은 보조 정보로만 유지"
     },
+
     "flower": {
-      "type": "중투화 발현 가능"
+      "type": "중투화 발현 가능",
+      "color": null,
+      "notes": null
     }
   },
-  "ai_dataset_tags": [
-    "중투",
-    "중투호",
-    "중압중투",
-    "둔두",
-    "명감등록품",
-    "엽예품"
-  ]
+
+  "market": {
+    "status": "general",
+    "target": "일반 애호가 및 중투호 소장가",
+    "notes": null
+  },
+
+  "images": [],
+
+  "observations": [],
+
+  "ai": {
+    "human_labels": ["중투", "중투호", "둔두", "명감등록품", "엽예품"],
+    "tags": [],
+    "notes": null
+  },
+
+  "sources": []
 }
