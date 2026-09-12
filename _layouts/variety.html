@@ -1,10 +1,10 @@
 ---
-layout: default
 ---
 
 {% assign d = site.data.varieties[page.variety_id] %}
 {% assign terms = site.data.categories %}
 
+{% if d %}
 <h1>{{ d.name }}{% if d.hanja %} ({{ d.hanja }}){% endif %}</h1>
 
 <h2>품종 분류</h2>
@@ -16,7 +16,6 @@ layout: default
     {% endfor %}
   </li>
   {% endif %}
-
   {% if d.classification.pattern.size > 0 %}
   <li><strong>무늬:</strong>
     {% for key in d.classification.pattern %}
@@ -24,7 +23,6 @@ layout: default
     {% endfor %}
   </li>
   {% endif %}
-
   {% if d.classification.pattern_modifier.size > 0 %}
   <li><strong>무늬 조합:</strong>
     {% for key in d.classification.pattern_modifier %}
@@ -32,7 +30,6 @@ layout: default
     {% endfor %}
   </li>
   {% endif %}
-
   {% if d.classification.leaf_tip.size > 0 %}
   <li><strong>잎끝:</strong>
     {% for key in d.classification.leaf_tip %}
@@ -40,7 +37,6 @@ layout: default
     {% endfor %}
   </li>
   {% endif %}
-
   {% if d.classification.pattern_position.size > 0 %}
   <li><strong>무늬 위치:</strong>
     {% for key in d.classification.pattern_position %}
@@ -48,14 +44,12 @@ layout: default
     {% endfor %}
   </li>
   {% endif %}
-
   {% if d.classification.pattern_timing %}
   <li><strong>무늬 발현:</strong> {{ terms.pattern_timing[d.classification.pattern_timing] | default: d.classification.pattern_timing }}</li>
   {% endif %}
 </ul>
 
 <hr>
-
 <h2>등록 정보</h2>
 <ul>
   {% if d.registration.status %}<li><strong>등록 상태:</strong> {{ d.registration.status }}</li>{% endif %}
@@ -65,7 +59,6 @@ layout: default
 </ul>
 
 <hr>
-
 <h2>주요 특징</h2>
 <ul>
   {% if d.traits.leaf.form %}<li><strong>잎 형태:</strong> {{ d.traits.leaf.form }}</li>{% endif %}
@@ -86,7 +79,6 @@ layout: default
 {% endif %}
 
 <hr>
-
 <h2>시장 정보</h2>
 <ul>
   {% if d.market.status %}<li><strong>시장 상태:</strong> {{ terms.market_status[d.market.status] | default: d.market.status }}</li>{% endif %}
@@ -95,32 +87,20 @@ layout: default
 </ul>
 
 <hr>
-
 <h2>AI 데이터셋</h2>
 {% if d.ai.human_labels.size > 0 %}
 <p><strong>사람이 확인한 라벨</strong></p>
 <ul>
-  {% for label in d.ai.human_labels %}
-  <li>#{{ label }}</li>
-  {% endfor %}
+  {% for label in d.ai.human_labels %}<li>#{{ label }}</li>{% endfor %}
 </ul>
 {% endif %}
-
 {% if d.ai.tags.size > 0 %}
 <p><strong>AI 태그</strong></p>
 <ul>
-  {% for tag in d.ai.tags %}
-  <li>#{{ tag }}</li>
-  {% endfor %}
+  {% for tag in d.ai.tags %}<li>#{{ tag }}</li>{% endfor %}
 </ul>
 {% endif %}
-
-{% if d.images.size > 0 %}
-<hr>
-<h2>이미지</h2>
-<ul>
-  {% for image in d.images %}
-  <li>{{ image.id }}{% if image.angle %} — {{ image.angle }}{% endif %}</li>
-  {% endfor %}
-</ul>
+{% else %}
+<h1>품종 데이터를 찾을 수 없습니다.</h1>
+<p>variety_id: {{ page.variety_id }}</p>
 {% endif %}
