@@ -139,13 +139,6 @@ a { color: inherit; }
   transform: translateY(0);
 }
 
-.kc-nav-group:focus-within .kc-mega-menu {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  transform: translateY(0);
-}
-
 .kc-mega-links {
   display: flex;
   flex-direction: column;
