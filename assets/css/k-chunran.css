@@ -28,6 +28,7 @@ a { color: inherit; }
 }
 
 .kc-header-inner {
+  position: relative;
   max-width: 1180px;
   margin: 0 auto;
   padding: 26px 28px 20px;
@@ -35,8 +36,17 @@ a { color: inherit; }
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid transparent;
+  background: #fff;
+}
+
+.kc-header-inner::after {
+  content: "";
+  position: absolute;
+  left: 28px;
+  bottom: -2px;
+  width: 3cm;
+  height: 2px;
   background: #c62828;
-  background: linear-gradient(to right, #c62828 0 100%) bottom / 100% 2px no-repeat;
 }
 
 .kc-brand {
