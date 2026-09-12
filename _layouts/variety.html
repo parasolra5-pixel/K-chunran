@@ -5,7 +5,7 @@ layout: default
 {% assign d = site.data.varieties[page.variety_id] %}
 {% assign terms = site.data.categories %}
 
-<h1>{{ d.name }}</h1>
+<h1>{{ d.name }}{% if d.hanja %} ({{ d.hanja }}){% endif %}</h1>
 
 <h2>품종 분류</h2>
 <ul>
