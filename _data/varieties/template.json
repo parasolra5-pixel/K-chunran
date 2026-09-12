@@ -2,6 +2,7 @@
   "id": "cultivar-id",
   "name": "품종명",
   "hanja": null,
+  "cultivar_class": null,
 
   "registration": {
     "status": null,
@@ -13,7 +14,6 @@
   "classification": {
     "leaf_form": [],
     "pattern": [],
-    "pattern_modifier": [],
     "leaf_tip": [],
     "pattern_position": [],
     "pattern_timing": null
