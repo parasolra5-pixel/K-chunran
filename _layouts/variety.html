@@ -3,39 +3,124 @@ layout: default
 ---
 
 {% assign d = site.data.varieties[page.variety_id] %}
-{% assign terms = site.data.config | default: site.data.categories %}
+{% assign terms = site.data.categories %}
 
-<h1>{{ d.name }} ({{ d.chinese_name }})</h1>
+<h1>{{ d.name }}</h1>
 
-<h2>개요</h2>
-<p><strong>주요 타겟:</strong> {{ d.market_info.target_purchaser }} (거래량: {{ d.market_info.trade_volume }})</p>
-
-<hr>
-
-<h2>품종 분류 체계</h2>
+<h2>품종 분류</h2>
 <ul>
-  <li><strong>대분류:</strong> {{ terms[d.primary_category] | default: d.primary_category }}</li>
-  <li><strong>세부 분류:</strong> {{ terms[d.sub_category] | default: d.sub_category }}</li>
-  <li><strong>유통 등록:</strong> {{ d.registration_number }}</li>
-  <li><strong>시장 상태:</strong> {{ terms[d.market_status] | default: d.market_status }}</li>
+  {% if d.classification.leaf_form.size > 0 %}
+  <li><strong>잎 형태:</strong>
+    {% for key in d.classification.leaf_form %}
+      {{ terms.leaf_form[key] | default: key }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </li>
+  {% endif %}
+
+  {% if d.classification.pattern.size > 0 %}
+  <li><strong>무늬:</strong>
+    {% for key in d.classification.pattern %}
+      {{ terms.pattern[key] | default: key }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </li>
+  {% endif %}
+
+  {% if d.classification.pattern_modifier.size > 0 %}
+  <li><strong>무늬 조합:</strong>
+    {% for key in d.classification.pattern_modifier %}
+      {{ terms.pattern_modifier[key] | default: key }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </li>
+  {% endif %}
+
+  {% if d.classification.leaf_tip.size > 0 %}
+  <li><strong>잎끝:</strong>
+    {% for key in d.classification.leaf_tip %}
+      {{ terms.leaf_tip[key] | default: key }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </li>
+  {% endif %}
+
+  {% if d.classification.pattern_position.size > 0 %}
+  <li><strong>무늬 위치:</strong>
+    {% for key in d.classification.pattern_position %}
+      {{ terms.pattern_position[key] | default: key }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </li>
+  {% endif %}
+
+  {% if d.classification.pattern_timing %}
+  <li><strong>무늬 발현:</strong> {{ terms.pattern_timing[d.classification.pattern_timing] | default: d.classification.pattern_timing }}</li>
+  {% endif %}
 </ul>
 
 <hr>
 
-<h2>주요 특징 및 엽성</h2>
+<h2>등록 정보</h2>
 <ul>
-  <li><strong>잎 형태:</strong> {{ d.features.leaf.type }}</li>
-  <li><strong>잎끝 형태:</strong> {{ d.features.leaf.tip }}</li>
-  <li><strong>색상/무늬:</strong> {{ d.features.leaf.color }}</li>
-  <li><strong>질감:</strong> {{ d.features.leaf.texture }}</li>
-  <li><strong>화예 정보:</strong> {{ d.features.flower.type }}</li>
+  {% if d.registration.status %}<li><strong>등록 상태:</strong> {{ d.registration.status }}</li>{% endif %}
+  {% if d.registration.number %}<li><strong>등록 번호:</strong> {{ d.registration.number }}</li>{% endif %}
+  {% if d.registration.authority %}<li><strong>등록 기관:</strong> {{ d.registration.authority }}</li>{% endif %}
+  {% if d.registration.year %}<li><strong>등록 연도:</strong> {{ d.registration.year }}</li>{% endif %}
 </ul>
 
 <hr>
 
-<h2>AI 데이터셋 라벨링</h2>
+<h2>주요 특징</h2>
 <ul>
-  {% for tag in d.ai_dataset_tags %}
+  {% if d.traits.leaf.form %}<li><strong>잎 형태:</strong> {{ d.traits.leaf.form }}</li>{% endif %}
+  {% if d.traits.leaf.tip %}<li><strong>잎끝:</strong> {{ d.traits.leaf.tip }}</li>{% endif %}
+  {% if d.traits.leaf.texture %}<li><strong>질감:</strong> {{ d.traits.leaf.texture }}</li>{% endif %}
+  {% if d.traits.leaf.base_color %}<li><strong>기본 색상:</strong> {{ d.traits.leaf.base_color }}</li>{% endif %}
+  {% if d.traits.leaf.variegation_color %}<li><strong>무늬 색상:</strong> {{ d.traits.leaf.variegation_color }}</li>{% endif %}
+  {% if d.traits.leaf.notes %}<li><strong>비고:</strong> {{ d.traits.leaf.notes }}</li>{% endif %}
+</ul>
+
+{% if d.traits.flower.type or d.traits.flower.color or d.traits.flower.notes %}
+<h3>화예</h3>
+<ul>
+  {% if d.traits.flower.type %}<li><strong>형태:</strong> {{ d.traits.flower.type }}</li>{% endif %}
+  {% if d.traits.flower.color %}<li><strong>색상:</strong> {{ d.traits.flower.color }}</li>{% endif %}
+  {% if d.traits.flower.notes %}<li><strong>비고:</strong> {{ d.traits.flower.notes }}</li>{% endif %}
+</ul>
+{% endif %}
+
+<hr>
+
+<h2>시장 정보</h2>
+<ul>
+  {% if d.market.status %}<li><strong>시장 상태:</strong> {{ terms.market_status[d.market.status] | default: d.market.status }}</li>{% endif %}
+  {% if d.market.target %}<li><strong>주요 대상:</strong> {{ d.market.target }}</li>{% endif %}
+  {% if d.market.notes %}<li><strong>비고:</strong> {{ d.market.notes }}</li>{% endif %}
+</ul>
+
+<hr>
+
+<h2>AI 데이터셋</h2>
+{% if d.ai.human_labels.size > 0 %}
+<p><strong>사람이 확인한 라벨</strong></p>
+<ul>
+  {% for label in d.ai.human_labels %}
+  <li>#{{ label }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if d.ai.tags.size > 0 %}
+<p><strong>AI 태그</strong></p>
+<ul>
+  {% for tag in d.ai.tags %}
   <li>#{{ tag }}</li>
   {% endfor %}
 </ul>
+{% endif %}
+
+{% if d.images.size > 0 %}
+<hr>
+<h2>이미지</h2>
+<ul>
+  {% for image in d.images %}
+  <li>{{ image.id }}{% if image.angle %} — {{ image.angle }}{% endif %}</li>
+  {% endfor %}
+</ul>
+{% endif %}
