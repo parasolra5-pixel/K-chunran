@@ -1,33 +1,57 @@
 {
+  "id": "agassi",
   "name": "아가씨",
-  "chinese_name": "아가씨",
-  "primary_category": "yeobye",
-  "sub_category": "jungtuho",
-  "market_status": "registered_masterpiece",
-  "registration_number": "한국춘란 명명 등록품",
-  "market_info": {
-    "target_purchaser": "중투호 및 엽예품 애호가",
-    "trade_volume": "중상"
+
+  "registration": {
+    "status": "명명 등록품",
+    "number": null,
+    "authority": "한국춘란 명명 등록",
+    "year": null
   },
-  "features": {
+
+  "classification": {
+    "leaf_form": ["gwangyeop"],
+    "pattern": ["jungtu"],
+    "pattern_modifier": ["jungtuho"],
+    "leaf_tip": ["wondu"],
+    "pattern_position": [],
+    "pattern_timing": null
+  },
+
+  "traits": {
     "leaf": {
-      "type": "광엽의 단정한 잎 성상 (입변계)",
+      "length": null,
+      "width": null,
+      "thickness": null,
+      "form": "광엽의 단정한 잎 성상 (입변계)",
       "tip": "원두 (부드럽고 둥근 형태)",
-      "color": "극황색의 밝은 바탕에 색대비가 뛰어난 짙은 취록색(농록색) 복륜상 무늬와 호",
-      "texture": "후육이며 윤기(광택)가 뛰어난 질감"
+      "texture": "후육이며 윤기(광택)이 뛰어난 질감",
+      "base_color": "극황색의 밝은 바탕",
+      "variegation_color": "짙은 취록색(농록색)",
+      "notes": "중투호로 설명되며 복륜상 무늬와 호가 함께 언급됨"
     },
     "flower": {
-      "type": "엽예품 위주이나 우수한 화예품질 품종 소스"
+      "type": "엽예품 위주이나 우수한 화예품질 품종 소스",
+      "color": null,
+      "notes": null
     }
   },
-  "ai_dataset_tags": [
-    "아가씨",
-    "한국춘란",
-    "중투호",
-    "중투호반",
-    "명감등록품",
-    "엽예품",
-    "원두",
-    "광엽"
-  ]
+
+  "market": {
+    "status": "premium",
+    "target": "중투호 및 엽예품 애호가",
+    "notes": "기존 자료의 거래량 '중상'은 정규 분류값으로 사용하지 않음"
+  },
+
+  "images": [],
+
+  "observations": [],
+
+  "ai": {
+    "human_labels": ["중투호", "중투호반", "원두", "광엽", "명감등록품", "엽예품"],
+    "tags": [],
+    "notes": null
+  },
+
+  "sources": []
 }
