@@ -1,6 +1,7 @@
 {
   "id": "agassi",
   "name": "아가씨",
+  "cultivar_class": "jungtuho",
 
   "registration": {
     "status": "명명 등록품",
@@ -12,7 +13,6 @@
   "classification": {
     "leaf_form": ["gwangyeop"],
     "pattern": ["jungtu"],
-    "pattern_modifier": ["jungtuho"],
     "leaf_tip": ["wondu"],
     "pattern_position": [],
     "pattern_timing": null
