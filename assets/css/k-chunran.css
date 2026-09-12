@@ -42,10 +42,12 @@ a { color: inherit; }
 .kc-header-inner::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
+  left: 50%;
+  right: auto;
   bottom: -2px;
+  width: 100vw;
   height: 2px;
+  margin-left: -50vw;
   background: #252525;
 }
 
