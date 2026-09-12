@@ -29,28 +29,14 @@ a { color: inherit; }
 
 .kc-header-inner {
   position: relative;
-  z-index: 1;
   max-width: 1180px;
   margin: 0 auto;
   padding: 26px 28px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid var(--kc-border);
   background: #fff;
-}
-
-.kc-header-inner::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  right: auto;
-  bottom: -2px;
-  width: 100vw;
-  height: 2px;
-  margin-left: -50vw;
-  background: var(--kc-border);
-  z-index: 5;
 }
 
 .kc-brand {
