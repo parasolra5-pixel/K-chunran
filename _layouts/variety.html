@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign d = site.data.varieties[page.variety_id] %}
+{% assign terms = site.data.config | default: site.data.categories %}
 
 <h1>{{ d.name }} ({{ d.chinese_name }})</h1>
 
@@ -13,10 +14,10 @@ layout: default
 
 <h2>품종 분류 체계</h2>
 <ul>
-  <li><strong>대분류:</strong> {{ site.data.categories[d.primary_category] | default: d.primary_category }}</li>
-  <li><strong>세부 분류:</strong> {{ site.data.categories[d.sub_category] | default: d.sub_category }}</li>
+  <li><strong>대분류:</strong> {{ terms[d.primary_category] | default: d.primary_category }}</li>
+  <li><strong>세부 분류:</strong> {{ terms[d.sub_category] | default: d.sub_category }}</li>
   <li><strong>유통 등록:</strong> {{ d.registration_number }}</li>
-  <li><strong>시장 상태:</strong> {{ site.data.categories[d.market_status] | default: d.market_status }}</li>
+  <li><strong>시장 상태:</strong> {{ terms[d.market_status] | default: d.market_status }}</li>
 </ul>
 
 <hr>
@@ -42,13 +43,8 @@ layout: default
   <h2 style="margin-top: 0;">{{ d.name }} <span style="font-size: 0.8em; color: #666;">({{ d.chinese_name }})</span></h2>
   
   <ul style="list-style: none; padding: 0;">
-    <!-- 대분류 출력 (예: 엽예품) -->
-    <li><strong>분류:</strong> {{ site.data.categories[d.primary_category] | default: d.primary_category }}</li>
-    
-    <!-- 세부 무늬 특성 출력 (예: 중투호) -->
-    <li><strong>세부 특성:</strong> {{ site.data.categories[d.sub_category] | default: d.sub_category }}</li>
-    
-    <!-- 시장 유통 상태 출력 (예: 일반 중대중품/애호가 거래) -->
-    <li><strong>시장 동향:</strong> {{ site.data.categories[d.market_status] | default: d.market_status }}</li>
+    <li><strong>분류:</strong> {{ terms[d.primary_category] | default: d.primary_category }}</li>
+    <li><strong>세부 특성:</strong> {{ terms[d.sub_category] | default: d.sub_category }}</li>
+    <li><strong>시장 동향:</strong> {{ terms[d.market_status] | default: d.market_status }}</li>
   </ul>
 </div>
