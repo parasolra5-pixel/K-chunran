@@ -11,7 +11,7 @@ layout: default
 <h2>품종 분류</h2>
 <ul>
   {% if d.cultivar_class %}
-  <li><strong>대표 분류:</strong> {{ terms.cultivar_class[d.cultivar_class] | default: d.cultivar_class }}</li>
+  <li><strong>품종 분류:</strong> {{ terms.cultivar_class[d.cultivar_class] | default: d.cultivar_class }}</li>
   {% endif %}
 </ul>
 
