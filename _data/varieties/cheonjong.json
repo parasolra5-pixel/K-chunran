@@ -2,16 +2,17 @@
   "name": "천종",
   "chinese_name": "天種",
   "primary_category": "yeobye",
-  "sub_category": "jungtu",
-  "market_status": "general_trade",
+  "sub_category": "danyeop_jungtu",
+  "market_status": "premium_trade",
   "registration_number": "대한민국 난 등록협회 명감 등록품",
   "market_info": {
     "target_purchaser": "고가 소장가 및 최고급 품종 애호가",
-    "trade_volume": "상"
+    "trade_volume": "최상"
   },
   "features": {
     "leaf": {
       "type": "환엽성 단엽중투",
+      "tip": "원두",
       "color": "짙은 농록의 엽록과 선명한 황백색 중투 무늬의 강렬한 대비",
       "texture": "두터운 육질과 윤기, 단정한 마감"
     },
@@ -21,11 +22,9 @@
   },
   "ai_dataset_tags": [
     "천종",
-    "중투호",
     "단엽중투",
     "환엽중투",
     "명감등록품",
-    "엽예품",
-    "일반거래"
+    "엽예품"
   ]
 }
