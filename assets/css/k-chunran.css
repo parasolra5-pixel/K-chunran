@@ -29,6 +29,7 @@ a { color: inherit; }
 
 .kc-header-inner {
   position: relative;
+  z-index: 1;
   max-width: 1180px;
   margin: 0 auto;
   padding: 26px 28px 20px;
@@ -49,6 +50,7 @@ a { color: inherit; }
   height: 2px;
   margin-left: -50vw;
   background: #252525;
+  z-index: 5;
 }
 
 .kc-brand {
