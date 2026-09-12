@@ -1,6 +1,7 @@
 {
   "id": "cultivar-id",
   "name": "품종명",
+  "hanja": null,
 
   "registration": {
     "status": null,
