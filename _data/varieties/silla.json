@@ -2,6 +2,7 @@
   "id": "silla",
   "name": "신라",
   "hanja": "新羅",
+  "cultivar_class": "danyeop_bokryun",
 
   "registration": {
     "status": "명감 등록품",
@@ -13,7 +14,6 @@
   "classification": {
     "leaf_form": ["danyeop"],
     "pattern": ["bokryun"],
-    "pattern_modifier": [],
     "leaf_tip": [],
     "pattern_position": [],
     "pattern_timing": null
@@ -46,8 +46,6 @@
   },
 
   "images": [],
-
-  "observations": [],
 
   "ai": {
     "human_labels": [],
