@@ -17,16 +17,16 @@ title: "대한민국 춘란(K-Chunran) - 지식 도감 & AI 데이터베이스"
 
 현재 수록된 주요 품종입니다.
 
-{% assign featured_ids = "sebo,hojung,silla,cheonjong,agassi" | split: "," %}
-{% for variety_id in featured_ids %}
-  {% assign d = site.data.varieties[variety_id] %}
-  {% if d %}
-  {% for post in site.posts %}
-    {% if post.variety_id == variety_id %}
-    - [{{ d.name }}{% if d.hanja %} ({{ d.hanja }}){% endif %}]({{ post.url | relative_url }})
-    {% endif %}
-  {% endfor %}
-  {% endif %}
-{% endfor %}
+{% assign featured_ids = "sebo,hojung,silla,cheonjong,agassi" | split: "," -%}
+{% for variety_id in featured_ids -%}
+  {% assign d = site.data.varieties[variety_id] -%}
+  {% if d -%}
+    {% for post in site.posts -%}
+      {% if post.variety_id == variety_id -%}
+- [{{ d.name }}{% if d.hanja %} ({{ d.hanja }}){% endif %}]({{ post.url | relative_url }})
+      {%- endif %}
+    {%- endfor %}
+  {%- endif %}
+{%- endfor %}
 
 [전체 품종 보기]({{ '/varieties/' | relative_url }})
