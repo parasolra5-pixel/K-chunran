@@ -1,0 +1,30 @@
+{
+  "name": "품종이름 (한글)",
+  "chinese_name": "한자이름",
+  "primary_category": "yeobye",
+  "sub_category": "jungtu",
+  "market_status": "general_trade",
+  "registration_number": "대한민국 난 등록협회 등록 정보",
+  "market_info": {
+    "target_purchaser": "주요 타겟층 및 애호가",
+    "trade_volume": "상/중/하"
+  },
+  "features": {
+    "leaf": {
+      "type": "잎 형태 및 품종 성상 (예: 단엽중투, 입엽성 등)",
+      "tip": "잎끝 형태 (예: 원두, 둔두, 예두 중 선택)",
+      "color": "색상 및 무늬 특징",
+      "texture": "질감 및 마감 특징"
+    },
+    "flower": {
+      "type": "화예 정보 및 감정 가치"
+    }
+  },
+  "ai_dataset_tags": [
+    "태그1",
+    "태그2",
+    "태그3",
+    "명감등록품",
+    "엽예품"
+  ]
+}
