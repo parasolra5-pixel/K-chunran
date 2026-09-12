@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/k-chunran.css' | relative_url }}">
+</head>
+<body>
+  <header class="kc-header">
+    <div class="kc-header-inner">
+      <a class="kc-brand" href="{{ '/' | relative_url }}">
+        <span class="kc-brand-title">대한민국 춘란</span>
+        <span class="kc-brand-subtitle">한국춘란 품종 도감 · AI 데이터베이스</span>
+      </a>
+      <button class="kc-menu-toggle" type="button" aria-controls="kc-navigation" aria-expanded="false">메뉴</button>
+    </div>
+    {% include navigation.html %}
+  </header>
+
+  <main class="kc-main">
+    {{ content }}
+  </main>
+
+  <footer class="kc-footer">
+    <div class="kc-footer-inner">K-Chunran · 한국춘란 품종 도감</div>
+  </footer>
+
+  <script>
+    (function () {
+      var button = document.querySelector('.kc-menu-toggle');
+      var nav = document.getElementById('kc-navigation');
+      if (!button || !nav) return;
+      button.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }());
+  </script>
+</body>
+</html>
