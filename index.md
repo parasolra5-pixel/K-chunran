@@ -1,4 +1,6 @@
 ---
+layout: default
+title: "대한민국 춘란(K-Chunran) - 지식 도감 & AI 데이터베이스"
 ---
 
 # 대한민국 춘란 (K-Chunran)
