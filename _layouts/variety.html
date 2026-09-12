@@ -39,12 +39,4 @@ layout: default
   {% endfor %}
 </ul>
 
-<div class="variety-info-card" style="margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 8px;">
-  <h2 style="margin-top: 0;">{{ d.name }} <span style="font-size: 0.8em; color: #666;">({{ d.chinese_name }})</span></h2>
-  
-  <ul style="list-style: none; padding: 0;">
-    <li><strong>분류:</strong> {{ terms[d.primary_category] | default: d.primary_category }}</li>
-    <li><strong>세부 특성:</strong> {{ terms[d.sub_category] | default: d.sub_category }}</li>
-    <li><strong>시장 동향:</strong> {{ terms[d.market_status] | default: d.market_status }}</li>
-  </ul>
-</div>
+
