@@ -116,7 +116,7 @@ a { color: inherit; }
   position: absolute;
   z-index: 20;
   left: 0;
-  top: 100%;
+  top: calc(100% + 1px);
   min-width: 100%;
   width: max-content;
   padding: 16px 18px 18px;
@@ -126,6 +126,7 @@ a { color: inherit; }
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.07);
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
   transform: translateY(-4px);
   transition: opacity .12s ease, transform .12s ease, visibility .12s ease;
 }
@@ -134,14 +135,8 @@ a { color: inherit; }
 .kc-nav-group:focus-within .kc-mega-menu {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
   transform: translateY(0);
-}
-
-.kc-mega-title {
-  margin-bottom: 10px;
-  font-weight: 700;
-  border-bottom: 1px solid var(--kc-border);
-  padding-bottom: 8px;
 }
 
 .kc-mega-links {
@@ -213,6 +208,7 @@ a { color: inherit; }
     display: none;
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
     transform: none;
   }
   .kc-nav-group:hover .kc-mega-menu,
