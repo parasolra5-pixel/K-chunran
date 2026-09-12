@@ -1,14 +1,53 @@
-# 대분류
-yeobye: "엽예품"
+# 한국춘란 분류 표준 v1
+#
+# 원칙:
+# - 품종의 복합 특성을 하나의 코드로 뭉치지 않는다.
+# - 예: 단엽중투 = leaf_form:danyeop + pattern:jungtu
+# - 예: 중투호 = pattern:jungtu + pattern_modifier:ho
+# - 시장 정보는 식물학적 분류와 분리한다.
 
-# 세부 품종 및 무늬 특성 (난계 표준 용어)
-danyeop: "단엽"
-jungtu: "중투호"       # '중투' 또는 '중투호'로 표준화
-bokryun: "복륜"
-danyeop_bokryun: "단엽복륜"
-danyeop_jungtu: "단엽중투"
-sapiban: "사피반"
+leaf_form:
+  danyeop: "단엽"
+  gwangyeop: "광엽"
+  ipyeop: "입엽"
+  jungyeop: "중엽"
+  jungsuyeop: "중수엽"
+  hwanyeop: "환엽"
+  pyeongyeop: "평엽"
 
-# 시장 유통 상태
-general_trade: "일반거래"    # 'general_trade' 키와 한글 매핑 추가
-premium_trade: "일반 중대중품/애호가 거래"  # 프리미엄 거품을 뺀 실제 유통 상태로 수정
+pattern:
+  jungtu: "중투"
+  ho: "호"
+  bokryun: "복륜"
+  sanban: "산반"
+  sapiban: "사피반"
+  hopiban: "호피반"
+  seoban: "서반"
+
+pattern_modifier:
+  jungtuho: "중투호"
+  sanbanjungtu: "산반중투"
+  sanbanbokryun: "산반복륜"
+  bokryunho: "복륜호"
+
+leaf_tip:
+  wondu: "원두"
+  dundu: "둔두"
+  yedu: "예두"
+
+pattern_position:
+  central: "중앙"
+  margin: "가장자리"
+  tip: "선단"
+  base: "기부"
+  full_leaf: "전면"
+
+pattern_timing:
+  seoncheon: "선천성"
+  hubal: "후발성"
+  somyeol: "소멸성"
+
+market_status:
+  general: "일반 유통"
+  premium: "고가 유통"
+  unknown: "확인되지 않음"
