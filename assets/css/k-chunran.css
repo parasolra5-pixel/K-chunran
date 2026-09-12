@@ -110,7 +110,7 @@ a { color: inherit; }
 .kc-nav-item:hover,
 .kc-nav-item:focus-visible,
 .kc-nav-group:hover > .kc-nav-item {
-  border-bottom-color: var(--kc-green);
+  border-bottom-color: transparent;
   background: var(--kc-hover);
 }
 
