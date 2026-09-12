@@ -2,6 +2,7 @@
   "id": "sebo",
   "name": "세보",
   "hanja": "世寶",
+  "cultivar_class": "jungtuho",
 
   "registration": {
     "status": "명명품",
@@ -13,7 +14,6 @@
   "classification": {
     "leaf_form": ["ipyeop"],
     "pattern": ["jungtu"],
-    "pattern_modifier": ["jungtuho"],
     "leaf_tip": ["dundu"],
     "pattern_position": [],
     "pattern_timing": null
