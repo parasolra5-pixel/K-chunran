@@ -14,5 +14,6 @@ title: "대한민국 춘란(K-Chunran) - 지식 도감 & AI 데이터베이스"
 
 ## 등록 품종 목록
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
+  {% assign d = site.data.varieties[post.variety_id] %}
+  - [{{ d.name }}{% if d.hanja %} ({{ d.hanja }}){% endif %}]({{ post.url | relative_url }})
 {% endfor %}
