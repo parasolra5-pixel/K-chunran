@@ -2,6 +2,7 @@
   "id": "cheonjong",
   "name": "천종",
   "hanja": "天種",
+  "cultivar_class": "danyeop_jungtu",
 
   "registration": {
     "status": "명감 등록품",
@@ -13,7 +14,6 @@
   "classification": {
     "leaf_form": ["danyeop", "hwanyeop"],
     "pattern": ["jungtu"],
-    "pattern_modifier": [],
     "leaf_tip": ["wondu"],
     "pattern_position": [],
     "pattern_timing": null
