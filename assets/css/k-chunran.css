@@ -132,7 +132,13 @@ a { color: inherit; }
   transition: opacity .12s ease, transform .12s ease, visibility .12s ease;
 }
 
-.kc-nav-group:hover .kc-mega-menu,
+.kc-nav-group:hover .kc-mega-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
 .kc-nav-group:focus-within .kc-mega-menu {
   opacity: 1;
   visibility: visible;
