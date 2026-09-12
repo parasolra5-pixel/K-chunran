@@ -24,12 +24,12 @@
       "length": null,
       "width": null,
       "thickness": null,
-      "form": "광엽성 단엽중투호반",
+      "form": "단엽성 중투호",
       "tip": "원두",
       "texture": "후육이며 윤기(광택)가 뛰어난 질감",
       "base_color": null,
       "variegation_color": "극황색",
-      "notes": "밝은 중투호반과 선단부 축입상 무늬로 설명됨"
+      "notes": "극황의 중투호와 녹복륜 계열의 색 대비가 관상미를 높이는 것으로 설명됨"
     },
     "flower": {
       "type": "엽예품 중심의 명품",
@@ -49,9 +49,9 @@
   "observations": [],
 
   "ai": {
-    "human_labels": ["중투", "중투호", "중투호반", "원두", "명감등록품", "엽예품"],
+    "human_labels": [],
     "tags": [],
-    "notes": "기존 자료에 광엽성 단엽중투호반이라는 표현이 있어 leaf_form은 확정하지 않음"
+    "notes": "호정은 단엽중투호로 확인되며, 기존 자료의 '중투호반' 표현은 canonical 분류에서 사용하지 않음"
   },
 
   "sources": []
