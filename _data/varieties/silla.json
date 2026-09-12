@@ -50,9 +50,9 @@
   "observations": [],
 
   "ai": {
-    "human_labels": ["단엽", "복륜", "단엽복륜", "명감등록품", "엽예품"],
+    "human_labels": [],
     "tags": [],
-    "notes": null
+    "notes": "분류·등록·품종 특성은 각각 canonical 필드에서 관리하며 중복 라벨은 저장하지 않음"
   },
 
   "sources": []
