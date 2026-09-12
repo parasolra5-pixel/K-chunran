@@ -34,7 +34,8 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid var(--kc-green);
+  border-bottom: 2px solid transparent;
+  background: linear-gradient(to right, #c62828 0 3cm, var(--kc-green) 3cm 100%) bottom / 100% 2px no-repeat;
 }
 
 .kc-brand {
