@@ -68,21 +68,22 @@ a { color: inherit; }
 .kc-nav-inner {
   max-width: 1180px;
   margin: 0 auto;
+  padding: 0 12px;
   display: flex;
   align-items: stretch;
   min-height: 54px;
-  gap: 0;
+  gap: 6px;
 }
 
 .kc-nav-group {
   position: relative;
-  flex: 1 1 0;
+  flex: 0 1 auto;
 }
 
 .kc-nav-item {
   display: block;
   width: 100%;
-  padding: 13px 24px;
+  padding: 13px 22px;
   border: 0;
   background: transparent;
   color: var(--kc-text);
@@ -102,7 +103,7 @@ a { color: inherit; }
 }
 
 .kc-nav-search {
-  flex: 1.55 1 0;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
