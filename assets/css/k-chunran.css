@@ -176,7 +176,7 @@ a { color: inherit; }
 
 .kc-hero-title {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.1rem);
+  font-size: clamp(1.65rem, 3vw, 2.3rem);
   line-height: 1.28;
   font-weight: 700;
   letter-spacing: -0.045em;
@@ -319,7 +319,7 @@ a { color: inherit; }
   .kc-nav-group:focus-within .kc-mega-menu { display: block; }
   .kc-main { padding: 34px 18px 60px; }
   .kc-hero { padding-top: 8px; padding-bottom: 34px; }
-  .kc-hero-title { font-size: 2rem; }
+  .kc-hero-title { font-size: 1.8rem; }
   .kc-home-grid { grid-template-columns: 1fr; }
   .kc-home-card { padding: 17px 18px; }
   .kc-footer-inner { padding-left: 18px; padding-right: 18px; }
