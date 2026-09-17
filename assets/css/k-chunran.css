@@ -361,6 +361,7 @@ a { color: inherit; }
   .kc-nav-group { width: 100%; }
   .kc-nav-search {
     width: 100%;
+    margin-left: 0;
     padding: 11px 18px 13px;
     justify-content: flex-start;
     border-bottom: 1px solid var(--kc-border);
