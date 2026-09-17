@@ -5,7 +5,7 @@ title: "대한민국 춘란(K-Chunran) - 지식 도감 & AI 데이터베이스"
 
 <div class="kc-hero">
   <p class="kc-hero-kicker">K-Chunran</p>
-  <p class="kc-hero-title">한국춘란을 체계적으로 기록합니다.<br>지식 도감 · AI 데이터베이스</p>
+  <p class="kc-hero-title">한국춘란을 체계적으로 기록합니다.</p>
   <p class="kc-hero-copy">품종의 분류와 형질, 유통 정보, 이미지를 하나의 구조로 정리합니다.</p>
   <a class="kc-hero-link" href="{{ '/varieties/' | relative_url }}">품종 도감 보기</a>
 </div>
