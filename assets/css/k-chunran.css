@@ -163,8 +163,9 @@ a { color: inherit; }
   z-index: 20;
   left: 0;
   top: 100%;
-  min-width: 100%;
-  width: 100%;
+  min-width: 190px;
+  width: max-content;
+  max-width: 280px;
   padding: 16px 18px 18px;
   background: var(--kc-menu-bg);
   border: 1px solid var(--kc-border);
@@ -195,6 +196,7 @@ a { color: inherit; }
   text-decoration: none;
   color: var(--kc-muted);
   border-radius: 2px;
+  white-space: nowrap;
 }
 
 .kc-mega-links a:hover,
@@ -376,6 +378,7 @@ a { color: inherit; }
     position: static;
     width: 100%;
     min-width: 0;
+    max-width: none;
     border: 0;
     border-bottom: 1px solid var(--kc-border);
     box-shadow: none;
