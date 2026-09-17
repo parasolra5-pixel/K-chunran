@@ -71,15 +71,17 @@ a { color: inherit; }
   display: flex;
   align-items: stretch;
   min-height: 54px;
-  gap: 18px;
+  gap: 0;
 }
 
 .kc-nav-group {
   position: relative;
+  flex: 1 1 0;
 }
 
 .kc-nav-item {
   display: block;
+  width: 100%;
   padding: 13px 24px;
   border: 0;
   background: transparent;
@@ -89,6 +91,7 @@ a { color: inherit; }
   font-size: 0.96rem;
   font-weight: 700;
   white-space: nowrap;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -104,7 +107,7 @@ a { color: inherit; }
   left: 0;
   top: 100%;
   min-width: 100%;
-  width: max-content;
+  width: 100%;
   padding: 16px 18px 18px;
   background: var(--kc-menu-bg);
   border: 1px solid var(--kc-border);
