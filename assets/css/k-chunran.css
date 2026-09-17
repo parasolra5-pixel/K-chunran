@@ -103,6 +103,7 @@ a { color: inherit; }
 }
 
 .kc-nav-search {
+  margin-left: auto;
   flex: 0 0 auto;
   display: flex;
   align-items: center;
