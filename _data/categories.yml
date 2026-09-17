@@ -23,14 +23,25 @@ cultivar_class:
 # 세부 형질
 # --------------------------------------------------
 
+# 잎의 형태
+# 잎의 크기·폭·전체적인 형태를 표현한다.
 leaf_form:
   danyeop: "단엽"
   gwangyeop: "광엽"
-  ipyeop: "입엽"
   jungyeop: "중엽"
-  jungsuyeop: "중수엽"
   hwanyeop: "환엽"
   pyeongyeop: "평엽"
+
+# 잎의 자태(엽성)
+# 잎이 서거나 드리워지거나 말리는 형태를 독립된 관찰 축으로 보존한다.
+# 현장 용어의 정의는 AI 학습 시 관찰 가능한 형질로 세분화할 수 있다.
+leaf_attitude:
+  ipyeop: "입엽"
+  jungipyeop: "중입엽"
+  jungsuyeop: "중수엽"
+  suyeop: "수엽"
+  nosuyeop: "노수엽"
+  gwolyeop: "권엽"
 
 pattern:
   jungtu: "중투"
