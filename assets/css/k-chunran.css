@@ -2006,3 +2006,193 @@ a { color: inherit; }
     gap: 16px;
   }
 }
+
+
+/* Knowledge: leaf form and attitude */
+.kc-knowledge-form-hero {
+  grid-template-columns: minmax(0, 1fr) 330px;
+}
+
+.kc-knowledge-form-hero h1 {
+  color: #9aa88f;
+}
+
+.kc-form-guide {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid var(--kc-border);
+  background: #fafbf9;
+  font-size: .74rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.kc-form-guide span {
+  padding: 7px 5px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+}
+
+.kc-form-guide i {
+  color: var(--kc-muted);
+  font-style: normal;
+}
+
+.kc-form-observe {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.kc-form-observe > div {
+  min-height: 112px;
+  padding: 15px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+}
+
+.kc-form-observe strong {
+  display: block;
+  font-size: .88rem;
+}
+
+.kc-form-observe span {
+  display: block;
+  margin-top: 8px;
+  color: var(--kc-muted);
+  font-size: .72rem;
+  line-height: 1.55;
+}
+
+.kc-form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.kc-form-card {
+  min-height: 132px;
+  padding: 16px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+}
+
+.kc-form-card strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.kc-form-card small {
+  display: block;
+  margin-top: 2px;
+  color: var(--kc-muted);
+  font-size: .68rem;
+}
+
+.kc-form-card p {
+  margin: 12px 0 0;
+  color: var(--kc-muted);
+  font-size: .74rem;
+  line-height: 1.6;
+}
+
+.kc-form-axis-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.kc-form-axis-grid > div {
+  min-height: 76px;
+  padding: 13px 14px;
+  border: 1px solid var(--kc-border);
+  background: #f4f7f1;
+}
+
+.kc-form-axis-grid strong {
+  display: block;
+  font-size: .82rem;
+}
+
+.kc-form-axis-grid span {
+  display: block;
+  margin-top: 4px;
+  color: var(--kc-muted);
+  font-size: .68rem;
+}
+
+.kc-form-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 28px;
+  padding: 22px 0 8px;
+  border-top: 1px solid var(--kc-border);
+}
+
+.kc-form-data h2 {
+  margin: 0 0 6px;
+  font-size: 1.08rem;
+}
+
+.kc-form-data p:last-child {
+  max-width: 680px;
+  margin: 0;
+  color: var(--kc-muted);
+  font-size: .82rem;
+  line-height: 1.6;
+}
+
+.kc-source-note {
+  margin-top: 18px;
+  padding: 13px 14px;
+  border-top: 1px solid var(--kc-border);
+  color: var(--kc-muted);
+  font-size: .68rem;
+  line-height: 1.6;
+}
+
+.kc-source-note p {
+  margin: 0;
+}
+
+.kc-source-note strong {
+  color: var(--kc-text);
+}
+
+@media (max-width: 900px) {
+  .kc-form-observe {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kc-form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kc-form-axis-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .kc-knowledge-form-hero {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .kc-form-observe,
+  .kc-form-grid,
+  .kc-form-axis-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kc-form-data {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
