@@ -43,6 +43,8 @@ permalink: /knowledge/leaf/form/
   </div>
 
   <div class="kc-form-grid">
+    <div class="kc-form-card"><strong>단엽</strong><small>短葉</small><p>잎이 짧고 단정한 형태를 보이는 유형입니다.</p></div>
+    <div class="kc-form-card"><strong>환엽</strong><small>丸葉</small><p>잎이 짧고 두터우며 둥근 느낌을 보이는 형태입니다.</p></div>
     <div class="kc-form-card"><strong>입엽</strong><small>立葉</small><p>잎이 위쪽으로 곧게 서는 자태입니다.</p></div>
     <div class="kc-form-card"><strong>중입엽</strong><small>中立葉</small><p>전체적으로 서 있으면서 잎끝 쪽에서 완만한 곡선을 보이는 자태입니다.</p></div>
     <div class="kc-form-card"><strong>중수엽</strong><small>中垂葉</small><p>잎의 중간부터 부드러운 곡선을 이루며 드리워지는 자태입니다.</p></div>
@@ -62,8 +64,8 @@ permalink: /knowledge/leaf/form/
   </div>
 
   <div class="kc-form-axis-grid">
-    <div><strong>잎의 폭</strong><span>광엽 · 세엽</span></div>
-    <div><strong>잎의 길이와 형태</strong><span>단엽 · 환엽 등</span></div>
+    <div><strong>잎의 폭</strong><span>광엽 · 세엽</span><a class="kc-text-link" href="{{ '/knowledge/leaf/width/' | relative_url }}">자세히 보기 →</a></div>
+    <div><strong>잎의 형태</strong><span>단엽 · 환엽</span></div>
     <div><strong>잎끝</strong><span>원두 · 둔두 · 예두</span></div>
     <div><strong>무늬</strong><span>중투 · 복륜 · 산반 · 호 등</span></div>
   </div>
