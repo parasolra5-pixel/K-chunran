@@ -911,8 +911,7 @@ a { color: inherit; }
     transition: opacity .12s ease, transform .12s ease, visibility .12s ease;
   }
 
-  .kc-submenu-group:hover > .kc-submenu,
-  .kc-submenu-group:focus-within > .kc-submenu {
+  .kc-submenu-group:hover > .kc-submenu {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -980,8 +979,7 @@ a { color: inherit; }
     position: relative;
   }
 
-  .kc-submenu-group:hover > .kc-submenu,
-  .kc-submenu-group:focus-within > .kc-submenu {
+  .kc-submenu-group:hover > .kc-submenu {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
