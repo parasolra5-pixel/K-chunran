@@ -827,3 +827,35 @@ a { color: inherit; }
     min-width: 245px;
   }
 }
+
+
+/* Navigation white surface and primary accent */
+.kc-navigation {
+  background: #fff;
+  border-bottom: 3px solid var(--kc-green);
+}
+
+.kc-nav-item,
+.kc-nav-search {
+  background: #fff;
+}
+
+.kc-nav-item:hover,
+.kc-nav-item:focus-visible,
+.kc-nav-group:hover > .kc-nav-item {
+  background: #fff;
+}
+
+.kc-nav-search-label {
+  color: var(--kc-text);
+}
+
+.kc-nav-search-box {
+  background: #fff;
+}
+
+@media (max-width: 760px) {
+  .kc-navigation {
+    border-bottom: 3px solid var(--kc-green);
+  }
+}
