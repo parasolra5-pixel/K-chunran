@@ -1552,3 +1552,71 @@ a { color: inherit; }
 .kc-classification-hero h1 {
   color: #9aa88f;
 }
+
+
+/* Variety catalog page */
+.kc-varieties-entry .kc-home-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.kc-varieties-entry .kc-home-card {
+  min-height: 132px;
+}
+
+.kc-variety-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.kc-variety-list-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 72px;
+  padding: 12px 36px 12px 14px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+  color: var(--kc-text);
+  text-decoration: none;
+}
+
+.kc-variety-list-item:hover,
+.kc-variety-list-item:focus-visible {
+  background: var(--kc-hover);
+  border-color: #cfd5ce;
+}
+
+.kc-variety-list-item strong {
+  font-size: .92rem;
+}
+
+.kc-variety-list-item span {
+  margin-top: 3px;
+  color: var(--kc-muted);
+  font-size: .68rem;
+}
+
+.kc-variety-list-item i {
+  position: absolute;
+  right: 13px;
+  bottom: 11px;
+  color: var(--kc-muted);
+  font-size: .85rem;
+  font-style: normal;
+}
+
+@media (max-width: 900px) {
+  .kc-varieties-entry .kc-home-grid,
+  .kc-variety-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .kc-varieties-entry .kc-home-grid,
+  .kc-variety-list {
+    grid-template-columns: 1fr;
+  }
+}
