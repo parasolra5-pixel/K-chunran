@@ -964,3 +964,27 @@ a { color: inherit; }
     font-size: 1.20rem;
   }
 }
+
+
+/* Nested submenu hover bridge */
+@media (min-width: 761px) {
+  .kc-mega-menu {
+    overflow: visible;
+  }
+
+  .kc-submenu {
+    left: calc(100% - 1px);
+  }
+
+  .kc-submenu-group {
+    position: relative;
+  }
+
+  .kc-submenu-group:hover > .kc-submenu,
+  .kc-submenu-group:focus-within > .kc-submenu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+}
