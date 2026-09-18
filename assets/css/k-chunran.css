@@ -1545,3 +1545,10 @@ a { color: inherit; }
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Detail page main titles */
+.kc-leaf-hero h1,
+.kc-classification-hero h1 {
+  color: #9aa88f;
+}
