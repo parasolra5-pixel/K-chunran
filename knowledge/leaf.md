@@ -10,6 +10,7 @@ permalink: /knowledge/leaf/
 
 <ul>
   <li><a href="{{ '/knowledge/leaf/form/' | relative_url }}">잎의 형태·자태</a></li>
+  <li><a href="{{ '/knowledge/leaf/width/' | relative_url }}">잎의 폭</a></li>
   <li><a href="{{ '/knowledge/leaf/texture/' | relative_url }}">잎의 표면·질감</a></li>
   <li><a href="{{ '/knowledge/leaf/tip/' | relative_url }}">잎끝</a></li>
   <li><a href="{{ '/knowledge/leaf/color/' | relative_url }}">잎의 색</a></li>
