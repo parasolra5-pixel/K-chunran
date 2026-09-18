@@ -26,6 +26,7 @@ permalink: /varieties/named/
   </div>
 
   <div class="kc-named-list">
+    {% assign named_index = 0 %}
     {% for post in site.posts %}
       {% assign d = site.data.varieties[post.variety_id] %}
       {% if d and d.registration.status %}
@@ -33,8 +34,9 @@ permalink: /varieties/named/
         {% assign class_label = site.data.categories.cultivar_class[class_key] %}
         {% assign pattern_key = d.classification.pattern | first %}
         {% assign pattern_label = site.data.categories.pattern[pattern_key] %}
+        {% assign named_index = named_index | plus: 1 %}
         <a class="kc-named-row" href="{{ post.url | relative_url }}">
-          <span class="kc-named-index">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+          <span class="kc-named-index">{{ named_index | prepend: "00" | slice: -2, 2 }}</span>
           <span class="kc-named-main">
             <strong>{{ d.name }}</strong>
             {% if d.hanja %}<small>{{ d.hanja }}</small>{% endif %}
