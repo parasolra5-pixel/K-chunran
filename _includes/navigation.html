@@ -6,8 +6,29 @@
         <div class="kc-mega-links">
           <a href="{{ '/varieties/' | relative_url }}">전체 품종</a>
           <a href="{{ '/varieties/named/' | relative_url }}">명명품</a>
-          <a href="{{ '/varieties/leaf/' | relative_url }}">엽예품</a>
-          <a href="{{ '/varieties/flower/' | relative_url }}">화예품</a>
+          <div class="kc-submenu-group">
+            <a class="kc-submenu-trigger" href="{{ '/varieties/leaf/' | relative_url }}">엽예품</a>
+            <div class="kc-submenu">
+              <a href="{{ '/varieties/leaf/jungtu/' | relative_url }}">중투</a>
+              <a href="{{ '/varieties/leaf/bokryun/' | relative_url }}">복륜</a>
+              <a href="{{ '/varieties/leaf/sanban/' | relative_url }}">산반</a>
+              <a href="{{ '/varieties/leaf/ho/' | relative_url }}">호</a>
+              <a href="{{ '/varieties/leaf/seoban/' | relative_url }}">서반</a>
+              <a href="{{ '/varieties/leaf/danyeop/' | relative_url }}">단엽</a>
+              <a href="{{ '/varieties/leaf/etc/' | relative_url }}">기타</a>
+            </div>
+          </div>
+          <div class="kc-submenu-group">
+            <a class="kc-submenu-trigger" href="{{ '/varieties/flower/' | relative_url }}">화예품</a>
+            <div class="kc-submenu">
+              <a href="{{ '/varieties/flower/honghwa/' | relative_url }}">홍화</a>
+              <a href="{{ '/varieties/flower/hwanghwa/' | relative_url }}">황화</a>
+              <a href="{{ '/varieties/flower/sosim/' | relative_url }}">소심</a>
+              <a href="{{ '/varieties/flower/boksaekhwa/' | relative_url }}">복색화</a>
+              <a href="{{ '/varieties/flower/gihwa/' | relative_url }}">기화</a>
+              <a href="{{ '/varieties/flower/etc/' | relative_url }}">기타</a>
+            </div>
+          </div>
           <a href="{{ '/varieties/classification/' | relative_url }}">분류별 품종 찾기</a>
         </div>
       </div>
