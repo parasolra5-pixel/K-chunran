@@ -797,3 +797,33 @@ a { color: inherit; }
     padding: 7px 8px;
   }
 }
+
+
+/* Navigation spacing and dropdown width */
+@media (min-width: 761px) {
+  .kc-nav-inner {
+    gap: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .kc-nav-group {
+    flex: 0 0 auto;
+  }
+
+  .kc-nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .kc-mega-menu {
+    min-width: 100%;
+    max-width: none;
+    width: max-content;
+    padding: 16px 20px 20px;
+  }
+
+  .kc-nav-group:nth-child(2) .kc-mega-menu {
+    min-width: 245px;
+  }
+}
