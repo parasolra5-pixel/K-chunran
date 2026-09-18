@@ -986,3 +986,222 @@ a { color: inherit; }
     transform: translateX(0);
   }
 }
+
+
+/* Named variety catalog page */
+.kc-page-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 36px;
+  align-items: end;
+  padding: 18px 0 38px;
+  border-bottom: 1px solid var(--kc-border);
+}
+
+.kc-page-kicker {
+  margin: 0 0 7px;
+  color: var(--kc-green);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.kc-page-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.045em;
+}
+
+.kc-page-lead {
+  margin: 12px 0 7px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.kc-page-copy {
+  max-width: 680px;
+  margin: 0;
+  color: var(--kc-muted);
+  font-size: 0.92rem;
+}
+
+.kc-page-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 132px;
+  padding: 20px 22px;
+  border: 1px solid var(--kc-border);
+  background: #fafbf9;
+}
+
+.kc-page-summary-label {
+  color: var(--kc-muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.kc-page-summary strong {
+  margin-top: 3px;
+  font-size: 2.25rem;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.kc-page-summary > span:last-child {
+  margin-top: 3px;
+  color: var(--kc-muted);
+  font-size: 0.78rem;
+}
+
+.kc-page-section {
+  padding: 38px 0 0;
+}
+
+.kc-section-note {
+  margin: 0;
+  color: var(--kc-muted);
+  font-size: 0.82rem;
+}
+
+.kc-named-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.kc-named-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+  color: var(--kc-text);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background .12s ease, border-color .12s ease, transform .12s ease, box-shadow .12s ease;
+}
+
+.kc-named-card:hover,
+.kc-named-card:focus-visible {
+  background: var(--kc-hover);
+  border-color: #cfd5ce;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(37, 40, 37, 0.06);
+}
+
+.kc-named-card-image {
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-bottom: 1px dashed #aeb7ad;
+  background: #f7f9f6;
+  color: var(--kc-muted);
+}
+
+.kc-named-card-image span {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.kc-named-card-image small {
+  font-size: 0.68rem;
+}
+
+.kc-named-card-body {
+  padding: 17px 18px 18px;
+}
+
+.kc-named-status {
+  margin: 0 0 4px;
+  color: var(--kc-green);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.kc-named-card h3 {
+  margin: 0;
+  font-size: 1.12rem;
+  letter-spacing: -0.025em;
+}
+
+.kc-named-card h3 span {
+  margin-left: 4px;
+  color: var(--kc-muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.kc-named-link {
+  margin: 13px 0 0;
+  color: var(--kc-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.kc-named-card:hover .kc-named-link,
+.kc-named-card:focus-visible .kc-named-link {
+  color: var(--kc-text);
+}
+
+.kc-named-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 38px;
+  padding: 28px 0 8px;
+  border-top: 1px solid var(--kc-border);
+}
+
+.kc-named-next h2 {
+  margin: 0 0 6px;
+  font-size: 1.08rem;
+}
+
+.kc-named-next p:last-child {
+  max-width: 680px;
+  margin: 0;
+  color: var(--kc-muted);
+  font-size: 0.84rem;
+}
+
+@media (max-width: 900px) {
+  .kc-named-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .kc-page-hero {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 6px;
+  }
+
+  .kc-page-summary {
+    min-height: 0;
+  }
+
+  .kc-named-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kc-named-card-image {
+    min-height: 155px;
+  }
+
+  .kc-named-next {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
