@@ -1205,3 +1205,33 @@ a { color: inherit; }
     gap: 16px;
   }
 }
+
+
+/* Leaf variety classification page */
+.kc-leaf-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
+  gap: 38px;
+  align-items: end;
+  padding: 18px 0 38px;
+  border-bottom: 1px solid var(--kc-border);
+}
+.kc-leaf-hero h1 { margin: 0; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; letter-spacing: -0.045em; }
+.kc-leaf-flow { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; align-items: center; gap: 8px; padding: 16px; border: 1px solid var(--kc-border); background: #fafbf9; font-size: .8rem; font-weight: 700; text-align: center; }
+.kc-leaf-flow span { padding: 8px 6px; background: #fff; border: 1px solid var(--kc-border); }
+.kc-leaf-flow i { color: var(--kc-muted); font-style: normal; }
+.kc-leaf-section { padding: 38px 0 0; }
+.kc-leaf-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.kc-leaf-class { position: relative; min-height: 164px; display: flex; flex-direction: column; padding: 21px 22px; border: 1px solid var(--kc-border); background: #fff; color: var(--kc-text); text-decoration: none; border-radius: 5px; transition: background .12s ease, border-color .12s ease, transform .12s ease, box-shadow .12s ease; }
+.kc-leaf-class:hover, .kc-leaf-class:focus-visible { background: var(--kc-hover); border-color: #cfd5ce; transform: translateY(-2px); box-shadow: 0 4px 14px rgba(37,40,37,.06); }
+.kc-leaf-number { color: var(--kc-green); font-size: .68rem; font-weight: 800; letter-spacing: .1em; }
+.kc-leaf-class strong { margin-top: 5px; font-size: 1.3rem; letter-spacing: -.03em; }
+.kc-leaf-class > small { margin-top: 1px; color: var(--kc-muted); font-size: .75rem; }
+.kc-leaf-class p { max-width: 90%; margin: 12px 0 0; color: var(--kc-muted); font-size: .8rem; line-height: 1.55; }
+.kc-leaf-arrow { position: absolute; right: 19px; bottom: 17px; color: var(--kc-muted); font-size: 1rem; }
+.kc-leaf-class-wide { grid-column: span 1; }
+.kc-leaf-data { display: flex; align-items: center; justify-content: space-between; gap: 28px; margin-top: 38px; padding: 28px 0 8px; border-top: 1px solid var(--kc-border); }
+.kc-leaf-data h2 { margin: 0 0 6px; font-size: 1.08rem; }
+.kc-leaf-data p:last-child { max-width: 680px; margin: 0; color: var(--kc-muted); font-size: .84rem; }
+@media (max-width: 900px) { .kc-leaf-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 760px) { .kc-leaf-hero { grid-template-columns: 1fr; gap: 20px; padding-top: 6px; } .kc-leaf-grid { grid-template-columns: 1fr; } .kc-leaf-data { align-items: flex-start; flex-direction: column; gap: 16px; } }
