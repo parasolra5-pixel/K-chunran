@@ -1807,3 +1807,204 @@ a { color: inherit; }
     gap: 4px;
   }
 }
+
+
+/* Jungtu classification page */
+.kc-jungtu-hero {
+  grid-template-columns: minmax(0, 1fr) 330px;
+}
+
+.kc-jungtu-hero h1 {
+  color: #9aa88f;
+}
+
+.kc-jungtu-guide {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid var(--kc-border);
+  background: #fafbf9;
+  font-size: .74rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.kc-jungtu-guide span {
+  padding: 7px 5px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+}
+
+.kc-jungtu-guide i {
+  color: var(--kc-muted);
+  font-style: normal;
+}
+
+.kc-jungtu-observe {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.kc-jungtu-observe > div,
+.kc-jungtu-class {
+  min-height: 94px;
+  padding: 14px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+}
+
+.kc-jungtu-observe strong,
+.kc-jungtu-class strong {
+  display: block;
+  font-size: .9rem;
+}
+
+.kc-jungtu-observe span {
+  display: block;
+  margin-top: 8px;
+  color: var(--kc-muted);
+  font-size: .72rem;
+  line-height: 1.55;
+}
+
+.kc-jungtu-class-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.kc-jungtu-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fafbf9;
+  box-shadow: inset 3px 0 0 #9aa88f;
+}
+
+.kc-jungtu-class code {
+  margin-top: 5px;
+  color: var(--kc-muted);
+  font-family: inherit;
+  font-size: .65rem;
+}
+
+.kc-jungtu-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.kc-jungtu-tags span {
+  padding: 7px 10px;
+  border: 1px solid var(--kc-border);
+  background: #fafbf9;
+  font-size: .72rem;
+}
+
+.kc-jungtu-variety-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.kc-jungtu-variety {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 8px;
+  min-height: 74px;
+  padding: 12px 36px 12px 14px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+  color: var(--kc-text);
+  text-decoration: none;
+}
+
+.kc-jungtu-variety:hover,
+.kc-jungtu-variety:focus-visible {
+  background: var(--kc-hover);
+  border-color: #cfd5ce;
+}
+
+.kc-jungtu-variety strong {
+  font-size: .95rem;
+}
+
+.kc-jungtu-variety span {
+  color: var(--kc-muted);
+  font-size: .7rem;
+}
+
+.kc-jungtu-variety em,
+.kc-jungtu-variety small {
+  padding: 3px 6px;
+  border: 1px solid var(--kc-border);
+  background: #fafbf9;
+  color: var(--kc-muted);
+  font-size: .65rem;
+  font-style: normal;
+}
+
+.kc-jungtu-variety i {
+  position: absolute;
+  right: 13px;
+  bottom: 11px;
+  color: var(--kc-muted);
+  font-size: .85rem;
+  font-style: normal;
+}
+
+.kc-jungtu-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 28px;
+  padding: 22px 0 8px;
+  border-top: 1px solid var(--kc-border);
+}
+
+.kc-jungtu-data h2 {
+  margin: 0 0 6px;
+  font-size: 1.08rem;
+}
+
+.kc-jungtu-data p:last-child {
+  max-width: 680px;
+  margin: 0;
+  color: var(--kc-muted);
+  font-size: .82rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .kc-jungtu-observe {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kc-jungtu-variety-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .kc-jungtu-hero {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .kc-jungtu-observe,
+  .kc-jungtu-class-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kc-jungtu-data {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
