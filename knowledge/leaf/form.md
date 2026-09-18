@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "잎의 형태·자세"
+title: "잎의 형태·자태"
 permalink: /knowledge/leaf/form/
 ---
 
 <section class="kc-leaf-hero kc-knowledge-form-hero">
   <div>
     <p class="kc-page-kicker">KNOWLEDGE · LEAF · FORM</p>
-    <h1>잎의 형태·자세</h1>
+    <h1>잎의 형태·자태</h1>
     <p class="kc-page-lead">한국춘란의 잎이 어느 방향으로 서고, 휘고, 드리워지는지를 살펴봅니다.</p>
     <p class="kc-page-copy">잎의 자태는 무늬와 별개의 관찰 축입니다. 한 품종의 잎은 자태·폭·길이·잎끝 등의 여러 형질이 함께 나타날 수 있으므로 각각을 나누어 기록합니다.</p>
   </div>
