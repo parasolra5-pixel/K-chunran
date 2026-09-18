@@ -1461,8 +1461,7 @@ a { color: inherit; }
 
 .kc-classification-card.is-featured {
   border: 1px solid var(--kc-border);
-  background: #fafbf9;
-  box-shadow: inset 3px 0 0 #9aa88f;
+  background: #f4f7f1;
 }
 
 .kc-classification-subgrid {
@@ -1880,8 +1879,7 @@ a { color: inherit; }
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #fafbf9;
-  box-shadow: inset 3px 0 0 #9aa88f;
+  background: #f4f7f1;
 }
 
 .kc-jungtu-class code {
