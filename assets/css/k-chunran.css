@@ -1462,7 +1462,7 @@ a { color: inherit; }
 .kc-classification-card.is-featured {
   border: 1px solid var(--kc-border);
   background: #fafbf9;
-  box-shadow: inset 3px 0 0 var(--kc-green);
+  box-shadow: inset 3px 0 0 #9aa88f;
 }
 
 .kc-classification-subgrid {
