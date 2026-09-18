@@ -1235,3 +1235,128 @@ a { color: inherit; }
 .kc-leaf-data p:last-child { max-width: 680px; margin: 0; color: var(--kc-muted); font-size: .84rem; }
 @media (max-width: 900px) { .kc-leaf-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 @media (max-width: 760px) { .kc-leaf-hero { grid-template-columns: 1fr; gap: 20px; padding-top: 6px; } .kc-leaf-grid { grid-template-columns: 1fr; } .kc-leaf-data { align-items: flex-start; flex-direction: column; gap: 16px; } }
+
+
+/* Leaf page compact line-box layout */
+.kc-leaf-hero {
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 28px;
+  padding: 12px 0 28px;
+}
+
+.kc-leaf-hero .kc-page-lead {
+  margin-top: 8px;
+  font-size: 1.02rem;
+}
+
+.kc-leaf-hero .kc-page-copy {
+  max-width: 620px;
+  font-size: .82rem;
+  line-height: 1.6;
+}
+
+.kc-leaf-flow {
+  padding: 10px;
+  gap: 5px;
+  font-size: .74rem;
+}
+
+.kc-leaf-flow span {
+  padding: 7px 5px;
+}
+
+.kc-leaf-section {
+  padding-top: 28px;
+}
+
+.kc-leaf-section .kc-section-heading {
+  margin-bottom: 14px;
+}
+
+.kc-leaf-section .kc-section-heading h2 {
+  font-size: 1.25rem;
+}
+
+.kc-leaf-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.kc-leaf-class {
+  min-height: 118px;
+  padding: 15px 16px;
+  border-radius: 3px;
+  border-color: var(--kc-border);
+}
+
+.kc-leaf-class strong {
+  margin-top: 3px;
+  font-size: 1.08rem;
+}
+
+.kc-leaf-class > small {
+  font-size: .68rem;
+}
+
+.kc-leaf-class p {
+  max-width: 100%;
+  margin-top: 7px;
+  font-size: .72rem;
+  line-height: 1.45;
+}
+
+.kc-leaf-number {
+  font-size: .62rem;
+}
+
+.kc-leaf-arrow {
+  right: 13px;
+  bottom: 11px;
+  font-size: .85rem;
+}
+
+.kc-leaf-class-wide {
+  grid-column: 2;
+}
+
+.kc-leaf-data {
+  margin-top: 28px;
+  padding-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .kc-leaf-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .kc-leaf-class-wide {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .kc-leaf-hero {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-bottom: 22px;
+  }
+
+  .kc-leaf-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kc-leaf-class {
+    min-height: 112px;
+    padding: 14px;
+  }
+
+  .kc-leaf-class-wide {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .kc-leaf-grid {
+    grid-template-columns: 1fr;
+  }
+}
