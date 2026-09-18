@@ -859,3 +859,15 @@ a { color: inherit; }
     border-bottom: 3px solid var(--kc-green);
   }
 }
+
+
+/* Navigation label size */
+@media (min-width: 761px) {
+  .kc-nav-item {
+    font-size: 1.08rem;
+  }
+
+  .kc-nav-search-label {
+    font-size: 1.08rem;
+  }
+}
