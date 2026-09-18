@@ -769,3 +769,9 @@ a { color: inherit; }
     margin: -16px -16px 12px;
   }
 }
+
+
+/* Hero title */
+.kc-hero-title {
+  color: #9aa88f;
+}
