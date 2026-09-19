@@ -33,6 +33,11 @@ leaf_width:
   gwangyeop: "광엽"
   seyeop: "세엽"
 
+# 잎의 표면·질감
+# 현재 확인된 용어만 우선 기록한다.
+leaf_texture:
+  nasaji: "나사지"
+
 # 잎의 자태(엽성)
 leaf_attitude:
   ipyeop: "입엽"
