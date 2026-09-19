@@ -7,7 +7,7 @@ permalink: /varieties/named/
 <section class="kc-leaf-hero kc-named-hero">
   <div>
     <p class="kc-page-kicker">VARIETY CATALOG · NAMED</p>
-    <h1>명명품 <span style="font-size: 0.58em; font-weight: 400; margin-left: 0.18em;">銘名品</span></h1>
+    <h1>명명품 </h1>
     <p class="kc-page-lead">이름과 등록 정보가 확인된 한국춘란 품종을 한곳에서 살펴봅니다.</p>
     <p class="kc-page-copy">명명·등록 상태를 기준으로 품종을 모아 보고, 분류와 세부 형질을 확인한 뒤 각 품종의 상세 도감으로 이어집니다.</p>
   </div>
