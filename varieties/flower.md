@@ -33,20 +33,23 @@ permalink: /varieties/flower/
         <a class="kc-leaf-class" href="{{ '/varieties/flower/honghwa/' | relative_url }}">
           <span class="kc-leaf-number">01</span><strong>홍화</strong><small>紅花</small><p>꽃잎에 붉은 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
+        <a class="kc-leaf-class" href="{{ '/varieties/flower/jugumhwa/' | relative_url }}">
+          <span class="kc-leaf-number">02</span><strong>주금화</strong><small>朱金花</small><p>주황빛과 금빛이 섞인 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+        </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/hwanghwa/' | relative_url }}">
-          <span class="kc-leaf-number">02</span><strong>황화</strong><small>黃花</small><p>꽃잎에 황색 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">03</span><strong>황화</strong><small>黃花</small><p>꽃잎에 황색 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/baekhwa/' | relative_url }}">
-          <span class="kc-leaf-number">03</span><strong>백화</strong><small>白花</small><p>꽃잎의 바탕색이 흰색으로 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">04</span><strong>백화</strong><small>白花</small><p>꽃잎의 바탕색이 흰색으로 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/dohwa/' | relative_url }}">
-          <span class="kc-leaf-number">04</span><strong>도화</strong><small>桃花</small><p>복숭아빛 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">05</span><strong>도화</strong><small>桃花</small><p>복숭아빛 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/jahwa/' | relative_url }}">
-          <span class="kc-leaf-number">05</span><strong>자화</strong><small>紫花</small><p>자색 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">06</span><strong>자화</strong><small>紫花</small><p>자색 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/boksaekhwa/' | relative_url }}">
-          <span class="kc-leaf-number">06</span><strong>복색화</strong><small>複色花</small><p>한 꽃에서 두 가지 이상의 색이 조화를 이루는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">15</span><strong>복색화</strong><small>複色花</small><p>한 꽃에서 두 가지 이상의 색이 조화를 이루는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
       </div>
     </section>
