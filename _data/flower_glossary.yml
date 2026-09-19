@@ -313,30 +313,6 @@ terms:
     verification: "term_confirmed_definition_needs_review"
     sources: [source_02]
 
-  - id: maepan
-    term: "매판"
-    hanja: "梅瓣"
-    category: "flower_form"
-    definition: "매화와 비슷한 느낌의 꽃형으로, 자료에서는 꽃잎 끝이 둥근 형태로 설명한다."
-    verification: "verified_secondary"
-    sources: [source_03]
-
-  - id: suseonpan
-    term: "수선판"
-    hanja: "水仙瓣"
-    category: "flower_form"
-    definition: "수선화 꽃모양을 닮은 꽃형으로 설명되는 용어."
-    verification: "verified_secondary"
-    sources: [source_03]
-
-  - id: hahwapan
-    term: "하화판"
-    hanja: "荷花瓣"
-    category: "flower_form"
-    definition: "연꽃과 비슷한 꽃형으로 설명되는 용어."
-    verification: "verified_secondary"
-    sources: [source_03]
-
   - id: duhwa
     term: "두화"
     hanja: "豆花"
