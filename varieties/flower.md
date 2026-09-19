@@ -7,7 +7,7 @@ permalink: /varieties/flower/
 <section class="kc-leaf-hero">
   <div>
     <p class="kc-page-kicker">VARIETY CATALOG · FLOWER</p>
-    <h1>화예품</h1>
+    <h1>화예품 <span style="font-size: 0.58em; font-weight: 400; margin-left: 0.18em;">花藝品</span></h1>
     <p class="kc-page-lead">꽃의 색과 형태를 기준으로 한국춘란을 살펴봅니다.</p>
     <p class="kc-page-copy">홍화·황화·소심·복색화·기화 등 주요 화예 분류를 먼저 선택하고, 해당 형질의 품종으로 이어집니다.</p>
   </div>
