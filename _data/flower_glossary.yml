@@ -317,8 +317,8 @@ terms:
     term: "두화"
     hanja: "豆花"
     category: "flower_form"
-    definition: "일반적인 난꽃보다 작고 꽃잎이 짧으며 둥근 형태로 설명되는 화형."
-    note: "원판화와의 개념적 경계는 추가 검증 대상이다."
+    definition: "꽃의 전체적인 형태가 작고 둥글며 콩알처럼 보이는 화형."
+    note: "사진에서 꽃의 크기와 전체적인 둥근 형태를 함께 관찰하며, 원판화와의 세부 경계는 추가 검증한다."
     verification: "verified_secondary_needs_term_boundary"
     sources: [source_03, source_05]
 
@@ -326,8 +326,8 @@ terms:
     term: "원판화"
     hanja: "圓瓣花"
     category: "flower_form"
-    definition: "둥근 꽃잎 형태를 가리키는 명칭으로 사용되며 일부 자료에서 두화와 병기된다."
-    note: "두화와의 개념적 경계는 자료 간 일관성이 부족하므로 확정하지 않는다."
+    definition: "꽃잎이 둥글고 원판에 가까운 형태를 보이는 화형."
+    note: "꽃잎의 둥근 형태와 전체 꽃의 윤곽을 관찰한다. 두화와의 개념적 경계는 자료와 실제 사진을 통해 추가 검증한다."
     verification: "term_confirmed_definition_needs_review"
     sources: [source_02, source_03]
 
@@ -344,11 +344,10 @@ terms:
     term: "투구화"
     hanja: "兜花"
     category: "flower_variation"
-    definition: "투구와 관련된 특수한 꽃 구조를 가진 화예품을 가리키는 명칭."
-    note: "세부 구조와 기화와의 관계는 추가 검증한다."
+    definition: "봉심 등의 구조가 발달하여 전체적으로 투구를 씌운 것처럼 보이는 특수한 꽃 형태."
+    note: "투구처럼 보이는 외형적 특징을 관찰하되, 구체적인 구조적 판정 기준은 추가 검증한다."
     verification: "verified_term_definition_needs_review"
     sources: [source_02, source_05]
-
   - id: sanbanhwa
     term: "산반화"
     hanja: "散斑花"
