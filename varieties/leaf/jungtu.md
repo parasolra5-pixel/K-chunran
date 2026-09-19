@@ -86,12 +86,12 @@ permalink: /varieties/leaf/jungtu/
       <span>광엽 · 세엽</span>
       <i>지식 사전 →</i>
     </a>
-    <a class="kc-jungtu-trait-card" href="{{ '/knowledge/leaf/pattern/' | relative_url }}">
+    <a class="kc-jungtu-trait-card" href="{{ '/varieties/leaf/' | relative_url }}">
       <strong>잎의 무늬</strong>
       <span>중투 · 복륜 · 산반 · 호 등</span>
       <i>지식 사전 →</i>
     </a>
-    <a class="kc-jungtu-trait-card" href="{{ '/knowledge/leaf/tip/' | relative_url }}">
+    <a class="kc-jungtu-trait-card" href="{{ '/knowledge/leaf/form/' | relative_url }}">
       <strong>잎끝</strong>
       <span>원두 · 둔두 · 예두</span>
       <i>지식 사전 →</i>
