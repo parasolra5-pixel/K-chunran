@@ -27,7 +27,7 @@ permalink: /varieties/leaf/
 
   <div style="display:grid; gap:1.5rem;">
 
-    <section style="border:1px solid rgba(0,0,0,0.12); border-radius:18px; padding:1.4rem;">
+    <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">무늬</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/leaf/jungtu/' | relative_url }}">
@@ -54,7 +54,7 @@ permalink: /varieties/leaf/
       </div>
     </section>
 
-    <section style="border:1px solid rgba(0,0,0,0.12); border-radius:18px; padding:1.4rem;">
+    <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">형태</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/leaf/danyeop/' | relative_url }}">
