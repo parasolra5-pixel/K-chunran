@@ -2381,3 +2381,203 @@ a { color: inherit; }
 .kc-jungtu-trait-card i { margin-top:12px; color:#9aa88f; font-size:.68rem; font-style:normal; }
 @media (max-width:900px) { .kc-jungtu-trait-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media (max-width:760px) { .kc-jungtu-trait-grid { grid-template-columns:1fr; } }
+
+
+/* Variety detail page */
+.kc-variety-detail-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 250px;
+  gap: 28px;
+  align-items: end;
+  padding: 14px 0 30px;
+  border-bottom: 1px solid var(--kc-border);
+}
+
+.kc-variety-detail-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.045em;
+}
+
+.kc-variety-detail-hero h1 span {
+  margin-left: 5px;
+  color: var(--kc-muted);
+  font-size: .42em;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.kc-variety-class {
+  display: inline-flex;
+  margin: 12px 0 0;
+  padding: 5px 9px;
+  border: 1px solid var(--kc-border);
+  background: #fafbf9;
+  color: var(--kc-green);
+  font-size: .78rem;
+  font-weight: 800;
+}
+
+.kc-variety-hero-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 118px;
+  padding: 18px 20px;
+  border: 1px solid var(--kc-border);
+  background: #fafbf9;
+}
+
+.kc-variety-hero-meta span,
+.kc-variety-info-card > span,
+.kc-variety-trait > span,
+.kc-variety-facts span {
+  color: var(--kc-muted);
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.kc-variety-hero-meta strong {
+  margin-top: 4px;
+  font-size: .92rem;
+  overflow-wrap: anywhere;
+}
+
+.kc-variety-hero-meta small {
+  margin-top: 8px;
+  color: var(--kc-green);
+  font-size: .74rem;
+  font-weight: 700;
+}
+
+.kc-variety-detail-section {
+  padding-top: 30px;
+}
+
+.kc-variety-info-grid,
+.kc-variety-trait-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.kc-variety-info-card,
+.kc-variety-trait {
+  min-height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 16px;
+  border: 1px solid var(--kc-border);
+  background: #fff;
+}
+
+.kc-variety-info-card strong,
+.kc-variety-trait strong {
+  margin-top: 5px;
+  font-size: .96rem;
+  line-height: 1.45;
+}
+
+.kc-variety-info-card code {
+  margin-top: 4px;
+  color: var(--kc-muted);
+  font-size: .68rem;
+}
+
+.kc-variety-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--kc-border);
+  border-bottom: 1px solid var(--kc-border);
+}
+
+.kc-variety-facts > div {
+  min-height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  padding: 12px 15px;
+  border-right: 1px solid var(--kc-border);
+}
+
+.kc-variety-facts > div:last-child {
+  border-right: 0;
+}
+
+.kc-variety-facts strong {
+  font-size: .86rem;
+  line-height: 1.45;
+}
+
+.kc-variety-trait-wide {
+  grid-column: span 2;
+}
+
+.kc-variety-subsection {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px dashed var(--kc-border);
+}
+
+.kc-variety-subsection h3 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+}
+
+.kc-variety-detail-empty {
+  padding: 28px 0 50px;
+}
+
+@media (max-width: 900px) {
+  .kc-variety-info-grid,
+  .kc-variety-trait-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kc-variety-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kc-variety-facts > div:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .kc-variety-facts > div:nth-child(n + 3) {
+    border-top: 1px solid var(--kc-border);
+  }
+}
+
+@media (max-width: 760px) {
+  .kc-variety-detail-hero {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding-top: 6px;
+  }
+
+  .kc-variety-hero-meta {
+    min-height: 0;
+  }
+
+  .kc-variety-info-grid,
+  .kc-variety-trait-grid,
+  .kc-variety-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .kc-variety-facts > div {
+    border-right: 0;
+    border-top: 1px solid var(--kc-border);
+  }
+
+  .kc-variety-facts > div:first-child {
+    border-top: 0;
+  }
+
+  .kc-variety-trait-wide {
+    grid-column: auto;
+  }
+}
