@@ -50,8 +50,17 @@ permalink: /varieties/flower/
     <a class="kc-leaf-class" href="{{ '/varieties/flower/jahwa/' | relative_url }}">
       <span class="kc-leaf-number">08</span><strong>자화</strong><small>紫花</small><p>자색 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
     </a>
+    <a class="kc-leaf-class" href="{{ '/varieties/flower/bokryunhwa/' | relative_url }}">
+      <span class="kc-leaf-number">09</span><strong>복륜화</strong><small>覆輪花</small><p>꽃잎 가장자리에 테두리처럼 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+    </a>
+    <a class="kc-leaf-class" href="{{ '/varieties/flower/sanbanhwa/' | relative_url }}">
+      <span class="kc-leaf-number">10</span><strong>산반화</strong><small>散斑花</small><p>꽃잎에 산반 형태의 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+    </a>
+    <a class="kc-leaf-class" href="{{ '/varieties/flower/hohwa/' | relative_url }}">
+      <span class="kc-leaf-number">11</span><strong>호화</strong><small>縞花</small><p>꽃잎에 호 형태의 줄무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+    </a>
     <a class="kc-leaf-class kc-leaf-class-wide" href="{{ '/varieties/flower/etc/' | relative_url }}">
-      <span class="kc-leaf-number">09</span><strong>기타</strong><small>ETC</small><p>주요 분류에 아직 속하지 않는 화예 형질</p><span class="kc-leaf-arrow">→</span>
+      <span class="kc-leaf-number">12</span><strong>기타</strong><small>ETC</small><p>주요 분류에 아직 속하지 않는 화예 형질</p><span class="kc-leaf-arrow">→</span>
     </a>
   </div>
 </section>
