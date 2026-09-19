@@ -41,8 +41,17 @@ permalink: /varieties/flower/
     <a class="kc-leaf-class" href="{{ '/varieties/flower/gihwa/' | relative_url }}">
       <span class="kc-leaf-number">05</span><strong>기화</strong><small>奇花</small><p>일반적인 꽃 형태와 다른 독특한 형태를 보이는 유형</p><span class="kc-leaf-arrow">→</span>
     </a>
-    <a class="kc-leaf-class" href="{{ '/varieties/flower/etc/' | relative_url }}">
-      <span class="kc-leaf-number">06</span><strong>기타</strong><small>ETC</small><p>주요 분류에 아직 속하지 않는 화예 형질</p><span class="kc-leaf-arrow">→</span>
+    <a class="kc-leaf-class" href="{{ '/varieties/flower/baekhwa/' | relative_url }}">
+      <span class="kc-leaf-number">06</span><strong>백화</strong><small>白花</small><p>꽃잎의 바탕색이 흰색으로 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+    </a>
+    <a class="kc-leaf-class" href="{{ '/varieties/flower/dohwa/' | relative_url }}">
+      <span class="kc-leaf-number">07</span><strong>도화</strong><small>桃花</small><p>복숭아빛 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+    </a>
+    <a class="kc-leaf-class" href="{{ '/varieties/flower/jahwa/' | relative_url }}">
+      <span class="kc-leaf-number">08</span><strong>자화</strong><small>紫花</small><p>자색 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+    </a>
+    <a class="kc-leaf-class kc-leaf-class-wide" href="{{ '/varieties/flower/etc/' | relative_url }}">
+      <span class="kc-leaf-number">09</span><strong>기타</strong><small>ETC</small><p>주요 분류에 아직 속하지 않는 화예 형질</p><span class="kc-leaf-arrow">→</span>
     </a>
   </div>
 </section>
