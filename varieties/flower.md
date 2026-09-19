@@ -27,7 +27,7 @@ permalink: /varieties/flower/
 
   <div style="display:grid; gap:1.5rem;">
 
-    <section style="border:1px solid rgba(0,0,0,0.12); border-radius:18px; padding:1.4rem;">
+    <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">색상</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/flower/honghwa/' | relative_url }}">
@@ -51,7 +51,7 @@ permalink: /varieties/flower/
       </div>
     </section>
 
-    <section style="border:1px solid rgba(0,0,0,0.12); border-radius:18px; padding:1.4rem;">
+    <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">무늬</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/flower/bokryunhwa/' | relative_url }}">
@@ -66,7 +66,7 @@ permalink: /varieties/flower/
       </div>
     </section>
 
-    <section style="border:1px solid rgba(0,0,0,0.12); border-radius:18px; padding:1.4rem;">
+    <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">형태</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/flower/gihwa/' | relative_url }}">
@@ -75,7 +75,7 @@ permalink: /varieties/flower/
       </div>
     </section>
 
-    <section style="border:1px solid rgba(0,0,0,0.12); border-radius:18px; padding:1.4rem;">
+    <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">설판</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/flower/sosim/' | relative_url }}">
