@@ -7,7 +7,7 @@ permalink: /varieties/leaf/
 <section class="kc-leaf-hero">
   <div>
     <p class="kc-page-kicker">VARIETY CATALOG · LEAF</p>
-    <h1>엽예품</h1>
+    <h1>엽예품 <span style="font-size: 0.58em; font-weight: 400; margin-left: 0.18em;">葉藝品</span></h1>
     <p class="kc-page-lead">잎의 무늬와 형태를 기준으로 한국춘란을 살펴봅니다.</p>
     <p class="kc-page-copy">중투·복륜·산반·호·서반·단엽 등 주요 엽예 분류를 먼저 선택하고, 해당 형질의 품종으로 이어집니다.</p>
   </div>
