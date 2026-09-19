@@ -49,7 +49,7 @@ permalink: /varieties/flower/
           <span class="kc-leaf-number">06</span><strong>자화</strong><small>紫花</small><p>자색 계열의 색이 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/boksaekhwa/' | relative_url }}">
-          <span class="kc-leaf-number">15</span><strong>복색화</strong><small>複色花</small><p>한 꽃에서 두 가지 이상의 색이 조화를 이루는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">07</span><strong>복색화</strong><small>複色花</small><p>한 꽃에서 두 가지 이상의 색이 조화를 이루는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
       </div>
     </section>
@@ -58,13 +58,13 @@ permalink: /varieties/flower/
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">무늬</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/flower/bokryunhwa/' | relative_url }}">
-          <span class="kc-leaf-number">07</span><strong>복륜화</strong><small>覆輪花</small><p>꽃잎 가장자리에 테두리처럼 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">08</span><strong>복륜화</strong><small>覆輪花</small><p>꽃잎 가장자리에 테두리처럼 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/sanbanhwa/' | relative_url }}">
-          <span class="kc-leaf-number">08</span><strong>산반화</strong><small>散斑花</small><p>꽃잎에 산반 형태의 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">09</span><strong>산반화</strong><small>散斑花</small><p>꽃잎에 산반 형태의 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/hohwa/' | relative_url }}">
-          <span class="kc-leaf-number">09</span><strong>호화</strong><small>縞花</small><p>꽃잎에 호 형태의 줄무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">10</span><strong>호화</strong><small>縞花</small><p>꽃잎에 호 형태의 줄무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
       </div>
     </section>
@@ -73,13 +73,13 @@ permalink: /varieties/flower/
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">형태</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/flower/douhwa/' | relative_url }}">
-          <span class="kc-leaf-number">10</span><strong>두화</strong><small>豆花</small><p>꽃잎이 짧고 둥글며 전체적으로 작고 둥근 화형을 보이는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">11</span><strong>두화</strong><small>豆花</small><p>꽃잎이 짧고 둥글며 전체적으로 작고 둥근 화형을 보이는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/wonpanhwa/' | relative_url }}">
-          <span class="kc-leaf-number">11</span><strong>원판화</strong><small>圓瓣花</small><p>꽃잎이 둥글고 꽃 전체가 원형에 가까운 화형을 보이는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">12</span><strong>원판화</strong><small>圓瓣花</small><p>꽃잎이 둥글고 꽃 전체가 원형에 가까운 화형을 보이는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/gihwa/' | relative_url }}">
-          <span class="kc-leaf-number">12</span><strong>기화</strong><small>奇花</small><p>일반적인 꽃 형태와 다른 독특한 형태를 보이는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">13</span><strong>기화</strong><small>奇花</small><p>일반적인 꽃 형태와 다른 독특한 형태를 보이는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
       </div>
     </section>
@@ -88,10 +88,10 @@ permalink: /varieties/flower/
       <h3 style="margin:0 0 1rem; font-size:1.35rem;">설판</h3>
       <div class="kc-leaf-grid">
         <a class="kc-leaf-class" href="{{ '/varieties/flower/sosim/' | relative_url }}">
-          <span class="kc-leaf-number">13</span><strong>소심</strong><small>素心</small><p>설판에 점이 나타나지 않는 특성을 기준으로 보는 유형</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">14</span><strong>소심</strong><small>素心</small><p>설판에 점이 나타나지 않는 특성을 기준으로 보는 유형</p><span class="kc-leaf-arrow">→</span>
         </a>
         <a class="kc-leaf-class" href="{{ '/varieties/flower/etc/' | relative_url }}">
-          <span class="kc-leaf-number">14</span><strong>기타</strong><small>ETC</small><p>주요 분류에 아직 속하지 않는 화예 형질</p><span class="kc-leaf-arrow">→</span>
+          <span class="kc-leaf-number">15</span><strong>기타</strong><small>ETC</small><p>주요 분류에 아직 속하지 않는 화예 형질</p><span class="kc-leaf-arrow">→</span>
         </a>
       </div>
     </section>
