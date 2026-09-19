@@ -192,15 +192,6 @@ terms:
     hanja: "花莖"
     category: "flower_organ"
     definition: "꽃을 받치고 있는 꽃대."
-    related_terms: [hwagan]
-    verification: "verified_secondary"
-    sources: [source_01]
-
-  - id: hwagan
-    term: "화간"
-    hanja: "花間"
-    category: "flower_observation"
-    definition: "꽃과 꽃 사이의 간격."
     verification: "verified_secondary"
     sources: [source_01]
 
