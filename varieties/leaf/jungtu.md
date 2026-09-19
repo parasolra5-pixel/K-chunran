@@ -8,8 +8,8 @@ permalink: /varieties/leaf/jungtu/
   <div>
     <p class="kc-page-kicker">VARIETY CATALOG · LEAF · JUNGTU</p>
     <h1>중투</h1>
-    <p class="kc-page-lead">잎의 중앙을 중심으로 밝은 무늬가 나타나는 대표적인 한국춘란 엽예 형질입니다.</p>
-    <p class="kc-page-copy">중투는 하나의 품종명이 아니라 여러 품종에서 관찰할 수 있는 형질입니다. K-Chunran에서는 대표 분류와 잎의 세부 형질을 분리해 기록합니다.</p>
+    <p class="kc-page-lead">잎에 나타나는 대표적인 무늬 유형 가운데 하나로, 밝은 무늬의 형태와 색, 경계를 함께 살펴봅니다.</p>
+    <p class="kc-page-copy">중투는 하나의 품종명이 아니라 여러 품종에서 관찰할 수 있는 형질입니다. K-Chunran에서는 무늬의 형질과 품종의 대표 분류, 잎의 다른 형질을 서로 구분해 기록합니다.</p>
   </div>
   <div class="kc-jungtu-guide">
     <span>무늬</span><i>→</i><span>형질</span><i>→</i><span>품종</span>
@@ -22,13 +22,13 @@ permalink: /varieties/leaf/jungtu/
       <p class="kc-section-kicker">WHAT IS JUNGTU?</p>
       <h2>중투를 어떻게 볼 것인가</h2>
     </div>
-    <p class="kc-section-note">무늬의 위치와 형태를 먼저 보고 품종으로 연결합니다.</p>
+    <p class="kc-section-note">무늬의 형태와 색, 경계를 함께 관찰합니다.</p>
   </div>
 
   <div class="kc-jungtu-observe">
     <div>
-      <strong>중앙 무늬</strong>
-      <span>잎의 중앙을 따라 밝은 색의 무늬가 나타나는지 관찰합니다.</span>
+      <strong>무늬의 형태</strong>
+      <span>잎에 나타나는 밝은 무늬의 모양과 이어지는 흐름을 살펴봅니다.</span>
     </div>
     <div>
       <strong>색 대비</strong>
@@ -39,8 +39,8 @@ permalink: /varieties/leaf/jungtu/
       <span>무늬가 잎의 어느 범위까지 이어지고 경계가 어떻게 형성되는지 살펴봅니다.</span>
     </div>
     <div>
-      <strong>잎의 자태</strong>
-      <span>입엽·수엽·광엽·세엽·단엽 등 잎 자체의 형질은 별도의 축으로 보존합니다.</span>
+      <strong>다른 잎 형질</strong>
+      <span>잎의 형태·자태와 폭, 잎끝은 중투와 별도의 형질 축으로 기록합니다.</span>
     </div>
   </div>
 </section>
@@ -75,16 +75,27 @@ permalink: /varieties/leaf/jungtu/
     <a class="kc-text-link" href="{{ '/varieties/classification/' | relative_url }}">전체 분류 보기 →</a>
   </div>
 
-  <div class="kc-jungtu-tags">
-    <span>단엽</span>
-    <span>환엽</span>
-    <span>입엽</span>
-    <span>수엽</span>
-    <span>광엽</span>
-    <span>세엽</span>
-    <span>원두</span>
-    <span>둔두</span>
-    <span>예두</span>
+  <div class="kc-jungtu-trait-grid">
+    <a class="kc-jungtu-trait-card" href="{{ '/knowledge/leaf/form/' | relative_url }}">
+      <strong>잎의 형태·자태</strong>
+      <span>단엽 · 환엽 · 입엽 · 수엽 등</span>
+      <i>지식 사전 →</i>
+    </a>
+    <a class="kc-jungtu-trait-card" href="{{ '/knowledge/leaf/width/' | relative_url }}">
+      <strong>잎의 폭</strong>
+      <span>광엽 · 세엽</span>
+      <i>지식 사전 →</i>
+    </a>
+    <a class="kc-jungtu-trait-card" href="{{ '/knowledge/leaf/pattern/' | relative_url }}">
+      <strong>잎의 무늬</strong>
+      <span>중투 · 복륜 · 산반 · 호 등</span>
+      <i>지식 사전 →</i>
+    </a>
+    <a class="kc-jungtu-trait-card" href="{{ '/knowledge/leaf/tip/' | relative_url }}">
+      <strong>잎끝</strong>
+      <span>원두 · 둔두 · 예두</span>
+      <i>지식 사전 →</i>
+    </a>
   </div>
 </section>
 
