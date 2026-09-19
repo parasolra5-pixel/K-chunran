@@ -6,53 +6,201 @@ layout: default
 {% assign terms = site.data.categories %}
 
 {% if d %}
-<h1>{{ d.name }}{% if d.hanja %} ({{ d.hanja }}){% endif %}</h1>
+<section class="kc-variety-detail-hero">
+  <div>
+    <p class="kc-page-kicker">VARIETY CATALOG · DETAIL</p>
+    <h1>{{ d.name }}{% if d.hanja %} <span>{{ d.hanja }}</span>{% endif %}</h1>
+    {% if d.cultivar_class %}
+      <p class="kc-variety-class">{{ terms.cultivar_class[d.cultivar_class] | default: d.cultivar_class }}</p>
+    {% endif %}
+    <p class="kc-page-copy">품종의 대표 분류와 관찰 가능한 형질, 등록 정보를 하나의 구조로 기록합니다.</p>
+  </div>
 
-<h2>품종 분류</h2>
-<ul>
-  {% if d.cultivar_class %}
-  <li><strong>품종 분류:</strong> {{ terms.cultivar_class[d.cultivar_class] | default: d.cultivar_class }}</li>
+  <div class="kc-variety-hero-meta">
+    <span>VARIETY ID</span>
+    <strong>{{ d.id | default: page.variety_id }}</strong>
+    {% if d.registration.status %}
+      <small>{{ d.registration.status }}</small>
+    {% endif %}
+  </div>
+</section>
+
+<section class="kc-variety-detail-section">
+  <div class="kc-section-heading">
+    <div>
+      <p class="kc-section-kicker">CLASSIFICATION</p>
+      <h2>품종 분류</h2>
+    </div>
+    <p class="kc-section-note">대표 분류와 세부 형질을 구분해 기록합니다.</p>
+  </div>
+
+  <div class="kc-variety-info-grid">
+    {% if d.cultivar_class %}
+    <div class="kc-variety-info-card">
+      <span>대표 분류</span>
+      <strong>{{ terms.cultivar_class[d.cultivar_class] | default: d.cultivar_class }}</strong>
+      <code>{{ d.cultivar_class }}</code>
+    </div>
+    {% endif %}
+
+    {% if d.classification.pattern %}
+    <div class="kc-variety-info-card">
+      <span>잎 무늬</span>
+      {% if d.classification.pattern.first %}
+        <strong>
+          {% for item in d.classification.pattern %}
+            {{ terms.pattern[item] | default: item }}{% unless forloop.last %} · {% endunless %}
+          {% endfor %}
+        </strong>
+      {% else %}
+        <strong>{{ terms.pattern[d.classification.pattern] | default: d.classification.pattern }}</strong>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% if d.classification.leaf_form %}
+    <div class="kc-variety-info-card">
+      <span>잎 형태</span>
+      {% if d.classification.leaf_form.first %}
+        <strong>
+          {% for item in d.classification.leaf_form %}
+            {{ terms.leaf_form[item] | default: item }}{% unless forloop.last %} · {% endunless %}
+          {% endfor %}
+        </strong>
+      {% else %}
+        <strong>{{ terms.leaf_form[d.classification.leaf_form] | default: d.classification.leaf_form }}</strong>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% if d.classification.leaf_tip %}
+    <div class="kc-variety-info-card">
+      <span>잎끝 형태</span>
+      {% if d.classification.leaf_tip.first %}
+        <strong>
+          {% for item in d.classification.leaf_tip %}
+            {{ terms.leaf_tip[item] | default: item }}{% unless forloop.last %} · {% endunless %}
+          {% endfor %}
+        </strong>
+      {% else %}
+        <strong>{{ terms.leaf_tip[d.classification.leaf_tip] | default: d.classification.leaf_tip }}</strong>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="kc-variety-detail-section">
+  <div class="kc-section-heading">
+    <div>
+      <p class="kc-section-kicker">REGISTRATION</p>
+      <h2>등록 정보</h2>
+    </div>
+  </div>
+
+  <div class="kc-variety-facts">
+    {% if d.registration.status %}<div><span>등록 상태</span><strong>{{ d.registration.status }}</strong></div>{% endif %}
+    {% if d.registration.number %}<div><span>등록 번호</span><strong>{{ d.registration.number }}</strong></div>{% endif %}
+    {% if d.registration.authority %}<div><span>등록 기관</span><strong>{{ d.registration.authority }}</strong></div>{% endif %}
+    {% if d.registration.year %}<div><span>등록 연도</span><strong>{{ d.registration.year }}</strong></div>{% endif %}
+  </div>
+</section>
+
+<section class="kc-variety-detail-section">
+  <div class="kc-section-heading">
+    <div>
+      <p class="kc-section-kicker">OBSERVED TRAITS</p>
+      <h2>주요 특징</h2>
+    </div>
+    <p class="kc-section-note">현재 데이터에 기록된 형질만 표시합니다.</p>
+  </div>
+
+  <div class="kc-variety-trait-grid">
+    {% if d.traits.leaf.form %}
+      <div class="kc-variety-trait">
+        <span>잎 성상</span>
+        <strong>{{ d.traits.leaf.form }}</strong>
+      </div>
+    {% endif %}
+    {% if d.traits.leaf.tip %}
+      <div class="kc-variety-trait">
+        <span>잎끝 형태</span>
+        <strong>{{ d.traits.leaf.tip }}</strong>
+      </div>
+    {% endif %}
+    {% if d.traits.leaf.texture %}
+      <div class="kc-variety-trait">
+        <span>질감</span>
+        <strong>{{ d.traits.leaf.texture }}</strong>
+      </div>
+    {% endif %}
+    {% if d.traits.leaf.base_color %}
+      <div class="kc-variety-trait">
+        <span>기본 색상</span>
+        <strong>{{ d.traits.leaf.base_color }}</strong>
+      </div>
+    {% endif %}
+    {% if d.traits.leaf.variegation_color %}
+      <div class="kc-variety-trait">
+        <span>무늬 색상</span>
+        <strong>{{ d.traits.leaf.variegation_color }}</strong>
+      </div>
+    {% endif %}
+    {% if d.traits.leaf.notes %}
+      <div class="kc-variety-trait kc-variety-trait-wide">
+        <span>잎 비고</span>
+        <strong>{{ d.traits.leaf.notes }}</strong>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if d.traits.flower.type or d.traits.flower.color or d.traits.flower.notes %}
+  <div class="kc-variety-subsection">
+    <h3>화예</h3>
+    <div class="kc-variety-trait-grid">
+      {% if d.traits.flower.type %}
+        <div class="kc-variety-trait">
+          <span>형태</span>
+          <strong>{{ d.traits.flower.type }}</strong>
+        </div>
+      {% endif %}
+      {% if d.traits.flower.color %}
+        <div class="kc-variety-trait">
+          <span>색상</span>
+          <strong>{{ d.traits.flower.color }}</strong>
+        </div>
+      {% endif %}
+      {% if d.traits.flower.notes %}
+        <div class="kc-variety-trait kc-variety-trait-wide">
+          <span>비고</span>
+          <strong>{{ d.traits.flower.notes }}</strong>
+        </div>
+      {% endif %}
+    </div>
+  </div>
   {% endif %}
-</ul>
+</section>
 
-<hr>
-<h2>등록 정보</h2>
-<ul>
-  {% if d.registration.status %}<li><strong>등록 상태:</strong> {{ d.registration.status }}</li>{% endif %}
-  {% if d.registration.number %}<li><strong>등록 번호:</strong> {{ d.registration.number }}</li>{% endif %}
-  {% if d.registration.authority %}<li><strong>등록 기관:</strong> {{ d.registration.authority }}</li>{% endif %}
-  {% if d.registration.year %}<li><strong>등록 연도:</strong> {{ d.registration.year }}</li>{% endif %}
-</ul>
+<section class="kc-variety-detail-section">
+  <div class="kc-section-heading">
+    <div>
+      <p class="kc-section-kicker">MARKET</p>
+      <h2>시장 정보</h2>
+    </div>
+    <p class="kc-section-note">식물학적·형태학적 정보와 분리해 기록합니다.</p>
+  </div>
 
-<hr>
-<h2>주요 특징</h2>
-<ul>
-  {% if d.traits.leaf.form %}<li><strong>잎 성상:</strong> {{ d.traits.leaf.form }}</li>{% endif %}
-  {% if d.traits.leaf.tip %}<li><strong>잎끝 형태:</strong> {{ d.traits.leaf.tip }}</li>{% endif %}
-  {% if d.traits.leaf.texture %}<li><strong>질감:</strong> {{ d.traits.leaf.texture }}</li>{% endif %}
-  {% if d.traits.leaf.base_color %}<li><strong>기본 색상:</strong> {{ d.traits.leaf.base_color }}</li>{% endif %}
-  {% if d.traits.leaf.variegation_color %}<li><strong>무늬 색상:</strong> {{ d.traits.leaf.variegation_color }}</li>{% endif %}
-  {% if d.traits.leaf.notes %}<li><strong>비고:</strong> {{ d.traits.leaf.notes }}</li>{% endif %}
-</ul>
-
-{% if d.traits.flower.type or d.traits.flower.color or d.traits.flower.notes %}
-<h3>화예</h3>
-<ul>
-  {% if d.traits.flower.type %}<li><strong>형태:</strong> {{ d.traits.flower.type }}</li>{% endif %}
-  {% if d.traits.flower.color %}<li><strong>색상:</strong> {{ d.traits.flower.color }}</li>{% endif %}
-  {% if d.traits.flower.notes %}<li><strong>비고:</strong> {{ d.traits.flower.notes }}</li>{% endif %}
-</ul>
-{% endif %}
-
-<hr>
-<h2>시장 정보</h2>
-<ul>
-  {% if d.market.status %}<li><strong>시장 상태:</strong> {{ terms.market_status[d.market.status] | default: d.market.status }}</li>{% endif %}
-  {% if d.market.target %}<li><strong>주요 대상:</strong> {{ d.market.target }}</li>{% endif %}
-  {% if d.market.notes %}<li><strong>비고:</strong> {{ d.market.notes }}</li>{% endif %}
-</ul>
+  <div class="kc-variety-facts">
+    {% if d.market.status %}<div><span>시장 상태</span><strong>{{ terms.market_status[d.market.status] | default: d.market.status }}</strong></div>{% endif %}
+    {% if d.market.target %}<div><span>주요 대상</span><strong>{{ d.market.target }}</strong></div>{% endif %}
+    {% if d.market.notes %}<div><span>비고</span><strong>{{ d.market.notes }}</strong></div>{% endif %}
+  </div>
+</section>
 
 {% else %}
-<h1>품종 데이터를 찾을 수 없습니다.</h1>
-<p>variety_id: {{ page.variety_id }}</p>
+<section class="kc-variety-detail-empty">
+  <p class="kc-page-kicker">VARIETY DATA</p>
+  <h1>품종 데이터를 찾을 수 없습니다.</h1>
+  <p>variety_id: {{ page.variety_id }}</p>
+</section>
 {% endif %}
