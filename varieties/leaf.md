@@ -17,6 +17,10 @@ permalink: /varieties/leaf/
 </section>
 
 <section class="kc-leaf-section">
+  <span id="category-seonhoban" aria-hidden="true"></span>
+  <span id="category-bokryunban" aria-hidden="true"></span>
+  <span id="category-danyeopjong" aria-hidden="true"></span>
+  <span id="category-etc" aria-hidden="true"></span>
   <div class="kc-section-heading">
     <div>
       <p class="kc-section-kicker">LEAF TRAITS</p>
