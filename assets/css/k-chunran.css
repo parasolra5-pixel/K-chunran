@@ -2600,3 +2600,24 @@ a { color: inherit; }
     grid-column: auto;
   }
 }
+
+
+/* Leaf trait submenu labels */
+.kc-submenu-label {
+  display: block;
+  margin: 8px 10px 3px;
+  color: var(--kc-text);
+  font-size: var(--kc-fs-2xs);
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.kc-submenu-label + a {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .kc-submenu-label {
+    margin: 7px 8px 2px;
+  }
+}
