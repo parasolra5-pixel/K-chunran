@@ -42,7 +42,8 @@
   "observations": [],
 
   "contributor": {
-    "display_name": null
+    "display_name": null,
+    "type": null
   },
 
   "verification": {
