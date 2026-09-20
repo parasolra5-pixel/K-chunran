@@ -1,0 +1,65 @@
+{
+  "specimen_id": "specimen-example-001",
+  "specimen_name": "무명중투",
+
+  "naming": {
+    "status": "unnamed",
+    "display_name": "무명중투",
+    "prefix": "무명",
+    "trait_name": "중투",
+    "cultivar_id": null
+  },
+
+  "classification": {
+    "category": "엽예품",
+    "leaf_form": [],
+    "pattern": ["중투"],
+    "flower_type": [],
+    "flower_color": []
+  },
+
+  "traits": {
+    "leaf": {
+      "length": null,
+      "width": null,
+      "thickness": null,
+      "form": null,
+      "tip": null,
+      "texture": null,
+      "base_color": null,
+      "variegation_color": null,
+      "notes": null
+    },
+    "flower": {
+      "type": null,
+      "color": null,
+      "notes": null
+    }
+  },
+
+  "images": [],
+
+  "observations": [],
+
+  "contributor": {
+    "display_name": null
+  },
+
+  "verification": {
+    "status": "unverified",
+    "verified_by": null,
+    "notes": null
+  },
+
+  "ai": {
+    "training_eligible": false,
+    "labels": [],
+    "candidate_cultivars": [],
+    "notes": null
+  },
+
+  "sources": [],
+
+  "created_at": null,
+  "updated_at": null
+}
