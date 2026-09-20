@@ -28,45 +28,33 @@ permalink: /varieties/leaf/
   <div style="display:grid; gap:1.5rem;">
 
     <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
-      <h3 style="margin:0 0 1rem; font-size:1.35rem;">무늬</h3>
+      <h3 style="margin:0 0 1rem; font-size:1.35rem;">등록 분류</h3>
       <div class="kc-leaf-grid">
-        <a class="kc-leaf-class" href="{{ '/varieties/leaf/jungtu/' | relative_url }}">
-      <span class="kc-leaf-number">01</span><strong>중투</strong><small>中透</small><p>잎의 중앙에 밝은 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
-    </a>
-    <a class="kc-leaf-class" href="{{ '/varieties/leaf/bokryun/' | relative_url }}">
-      <span class="kc-leaf-number">02</span><strong>복륜</strong><small>覆輪</small><p>잎 가장자리를 따라 무늬가 둘러지는 유형</p><span class="kc-leaf-arrow">→</span>
-    </a>
-    <a class="kc-leaf-class" href="{{ '/varieties/leaf/sanban/' | relative_url }}">
-      <span class="kc-leaf-number">03</span><strong>산반</strong><small>散斑</small><p>잎에 흩어진 형태로 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
-    </a>
-    <a class="kc-leaf-class" href="{{ '/varieties/leaf/ho/' | relative_url }}">
-      <span class="kc-leaf-number">04</span><strong>호</strong><small>縞</small><p>잎맥을 따라 세로 방향의 무늬가 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
-    </a>
-    <a class="kc-leaf-class" href="{{ '/varieties/leaf/seoban/' | relative_url }}">
-      <span class="kc-leaf-number">05</span><strong>서반</strong><small>曙斑</small><p>잎에 밝은 색의 무늬가 번지는 유형</p><span class="kc-leaf-arrow">→</span>
-    </a>
-    <a class="kc-leaf-class" href="{{ '/varieties/leaf/sapiban/' | relative_url }}">
-      <span class="kc-leaf-number">06</span><strong>사피반</strong><small>蛇皮斑</small><p>서반 계열의 무늬 안에 녹색 점이 산재하는 유형</p><span class="kc-leaf-arrow">→</span>
-    </a>
-    <a class="kc-leaf-class" href="{{ '/varieties/leaf/hopiban/' | relative_url }}">
-      <span class="kc-leaf-number">07</span><strong>호피반</strong><small>虎皮斑</small><p>호반 계열의 무늬가 불규칙하게 나타나는 유형</p><span class="kc-leaf-arrow">→</span>
-    </a>
+        <a id="category-seonhoban" class="kc-leaf-class" href="#category-seonhoban">
+          <span class="kc-leaf-number">01</span><strong>선호반</strong><small>線縞斑</small><p>호(縞) 계열의 선상 무늬로 구분하는 엽예 분류</p><span class="kc-leaf-arrow">→</span>
+        </a>
+        <a id="category-bokryunban" class="kc-leaf-class" href="#category-bokryunban">
+          <span class="kc-leaf-number">02</span><strong>복륜반</strong><small>覆輪斑</small><p>잎 가장자리를 따라 무늬가 둘러지는 엽예 분류</p><span class="kc-leaf-arrow">→</span>
+        </a>
+        <a id="category-sapiban" class="kc-leaf-class" href="#category-sapiban">
+          <span class="kc-leaf-number">03</span><strong>사피반</strong><small>蛇皮斑</small><p>녹색 점이 섞인 사피 계열의 엽예 분류</p><span class="kc-leaf-arrow">→</span>
+        </a>
+        <a id="category-hopiban" class="kc-leaf-class" href="#category-hopiban">
+          <span class="kc-leaf-number">04</span><strong>호피반</strong><small>虎皮斑</small><p>호피 형태의 반무늬로 구분하는 엽예 분류</p><span class="kc-leaf-arrow">→</span>
+        </a>
+        <a id="category-sanban" class="kc-leaf-class" href="#category-sanban">
+          <span class="kc-leaf-number">05</span><strong>산반</strong><small>散斑</small><p>섬세한 선과 반점이 산재하는 엽예 형질 분류</p><span class="kc-leaf-arrow">→</span>
+        </a>
+        <a id="category-danyeopjong" class="kc-leaf-class" href="#category-danyeopjong">
+          <span class="kc-leaf-number">06</span><strong>단엽종</strong><small>短葉種</small><p>잎이 짧은 형태를 중심으로 구분하는 엽예 분류</p><span class="kc-leaf-arrow">→</span>
+        </a>
+        <a id="category-etc" class="kc-leaf-class kc-leaf-class-wide" href="#category-etc">
+          <span class="kc-leaf-number">07</span><strong>기타등록품</strong><small>ETC</small><p>위 주요 분류에 속하지 않는 등록 엽예품</p><span class="kc-leaf-arrow">→</span>
+        </a>
       </div>
     </section>
 
-    <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
-      <h3 style="margin:0 0 1rem; font-size:1.35rem;">형태</h3>
-      <div class="kc-leaf-grid">
-        <a class="kc-leaf-class" href="{{ '/varieties/leaf/danyeop/' | relative_url }}">
-          <span class="kc-leaf-number">08</span><strong>단엽</strong><small>短葉</small><p>잎이 짧고 넓으며 독특한 형태를 보이는 유형</p><span class="kc-leaf-arrow">→</span>
-        </a>
-        <a class="kc-leaf-class kc-leaf-class-wide" href="{{ '/varieties/leaf/etc/' | relative_url }}">
-          <span class="kc-leaf-number">09</span><strong>기타</strong><small>ETC</small><p>주요 분류에 아직 속하지 않는 엽예 형질</p><span class="kc-leaf-arrow">→</span>
-        </a>
-      </div>
     </section>
-  </div>
-</section>
 
 <section class="kc-leaf-section kc-leaf-data">
   <div>
