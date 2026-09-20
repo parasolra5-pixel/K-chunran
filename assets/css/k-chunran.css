@@ -309,7 +309,7 @@ a { color: inherit; }
 
 .kc-home-card span {
   color: var(--kc-muted);
-  font-size: 1.144rem;
+  font-size: 0.968rem;
 }
 
 .kc-home-varieties {
@@ -1024,7 +1024,7 @@ a { color: inherit; }
   max-width: 680px;
   margin: 0;
   color: var(--kc-muted);
-  font-size: 1.196rem;
+  font-size: 1.012rem;
 }
 
 .kc-page-summary {
@@ -1054,7 +1054,7 @@ a { color: inherit; }
 .kc-page-summary > span:last-child {
   margin-top: 3px;
   color: var(--kc-muted);
-  font-size: 1.014rem;
+  font-size: 0.858rem;
 }
 
 .kc-page-section {
@@ -1594,7 +1594,7 @@ a { color: inherit; }
 .kc-variety-list-item span {
   margin-top: 3px;
   color: var(--kc-muted);
-  font-size: .884rem;
+  font-size: .748rem;
 }
 
 .kc-variety-list-item i {
@@ -2603,5 +2603,5 @@ a { color: inherit; }
 .kc-structure-parts span,
 .kc-structure-observe p,
 .kc-structure-axis span {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
