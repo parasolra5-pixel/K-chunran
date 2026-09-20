@@ -2,88 +2,52 @@
   <div class="kc-nav-inner">
     <div class="kc-nav-group has-menu">
       <button class="kc-nav-item kc-nav-button" type="button">품종 도감</button>
-      <div class="kc-mega-menu">
-        <div class="kc-mega-links">
-          <a href="{{ '/varieties/' | relative_url }}">전체 품종</a>
-          <a href="{{ '/varieties/named/' | relative_url }}">명명품</a>
-
-          <div class="kc-submenu-group">
-            <a class="kc-submenu-trigger" href="{{ '/varieties/leaf/' | relative_url }}">엽예품</a>
-            <div class="kc-submenu">
-              <a href="{{ '/varieties/leaf/#category-jungtu' | relative_url }}">중투</a>
-              <a href="{{ '/varieties/leaf/#category-bokryun' | relative_url }}">복륜</a>
-              <a href="{{ '/varieties/leaf/#category-sanban' | relative_url }}">산반</a>
-              <a href="{{ '/varieties/leaf/#category-ho' | relative_url }}">호</a>
-              <a href="{{ '/varieties/leaf/#category-sapiban' | relative_url }}">사피반</a>
-              <a href="{{ '/varieties/leaf/#category-hopiban' | relative_url }}">호피반</a>
-              <a href="{{ '/varieties/leaf/#category-seoban' | relative_url }}">서반</a>
-              <a href="{{ '/varieties/leaf/#category-danyeop' | relative_url }}">단엽</a>
-              <a href="{{ '/varieties/leaf/#category-hwanyeop' | relative_url }}">환엽</a>
-            </div>
+      <div class="kc-mega-menu"><div class="kc-mega-links">
+        <a href="{{ '/varieties/' | relative_url }}">전체 품종</a>
+        <a href="{{ '/varieties/named/' | relative_url }}">명명품</a>
+        <div class="kc-submenu-group">
+          <a class="kc-submenu-trigger" href="{{ '/varieties/leaf/' | relative_url }}">엽예품</a>
+          <div class="kc-submenu">
+            <a href="{{ '/varieties/leaf/jungtu/' | relative_url }}">중투</a>
+            <a href="{{ '/varieties/leaf/#category-bokryun' | relative_url }}">복륜</a>
+            <a href="{{ '/varieties/leaf/#category-sanban' | relative_url }}">산반</a>
+            <a href="{{ '/varieties/leaf/#category-ho' | relative_url }}">호</a>
+            <a href="{{ '/varieties/leaf/sapiban/' | relative_url }}">사피반</a>
+            <a href="{{ '/varieties/leaf/hopiban/' | relative_url }}">호피반</a>
+            <a href="{{ '/varieties/leaf/#category-seoban' | relative_url }}">서반</a>
+            <a href="{{ '/varieties/leaf/#category-danyeop' | relative_url }}">단엽</a>
+            <a href="{{ '/varieties/leaf/#category-hwanyeop' | relative_url }}">환엽</a>
           </div>
-
-          <div class="kc-submenu-group">
-            <a class="kc-submenu-trigger" href="{{ '/varieties/flower/' | relative_url }}">화예품</a>
-            <div class="kc-submenu">
-              <a href="{{ '/varieties/flower/honghwa/' | relative_url }}">홍화</a>
-              <a href="{{ '/varieties/flower/jugumhwa/' | relative_url }}">주금화</a>
-              <a href="{{ '/varieties/flower/hwanghwa/' | relative_url }}">황화</a>
-              <a href="{{ '/varieties/flower/baekhwa/' | relative_url }}">백화</a>
-              <a href="{{ '/varieties/flower/dohwa/' | relative_url }}">도화</a>
-              <a href="{{ '/varieties/flower/jahwa/' | relative_url }}">자화</a>
-              <a href="{{ '/varieties/flower/boksaekhwa/' | relative_url }}">복색화</a>
-              <a href="{{ '/varieties/flower/bokryunhwa/' | relative_url }}">복륜화</a>
-              <a href="{{ '/varieties/flower/sanbanhwa/' | relative_url }}">산반화</a>
-              <a href="{{ '/varieties/flower/hohwa/' | relative_url }}">호화</a>
-              <a href="{{ '/varieties/flower/douhwa/' | relative_url }}">두화</a>
-              <a href="{{ '/varieties/flower/wonpanhwa/' | relative_url }}">원판화</a>
-              <a href="{{ '/varieties/flower/gihwa/' | relative_url }}">기화</a>
-              <a href="{{ '/varieties/flower/sosim/' | relative_url }}">소심</a>
-              <a href="{{ '/varieties/flower/etc/' | relative_url }}">기타</a>
-            </div>
+        </div>
+        <div class="kc-submenu-group">
+          <a class="kc-submenu-trigger" href="{{ '/varieties/flower/' | relative_url }}">화예품</a>
+          <div class="kc-submenu">
+            <a href="{{ '/varieties/flower/honghwa/' | relative_url }}">홍화</a>
+            <a href="{{ '/varieties/flower/jugumhwa/' | relative_url }}">주금화</a>
+            <a href="{{ '/varieties/flower/hwanghwa/' | relative_url }}">황화</a>
+            <a href="{{ '/varieties/flower/baekhwa/' | relative_url }}">백화</a>
+            <a href="{{ '/varieties/flower/dohwa/' | relative_url }}">도화</a>
+            <a href="{{ '/varieties/flower/jahwa/' | relative_url }}">자화</a>
+            <a href="{{ '/varieties/flower/boksaekhwa/' | relative_url }}">복색화</a>
+            <a href="{{ '/varieties/flower/bokryunhwa/' | relative_url }}">복륜화</a>
+            <a href="{{ '/varieties/flower/sanbanhwa/' | relative_url }}">산반화</a>
+            <a href="{{ '/varieties/flower/hohwa/' | relative_url }}">호화</a>
+            <a href="{{ '/varieties/flower/douhwa/' | relative_url }}">두화</a>
+            <a href="{{ '/varieties/flower/wonpanhwa/' | relative_url }}">원판화</a>
+            <a href="{{ '/varieties/flower/gihwa/' | relative_url }}">기화</a>
+            <a href="{{ '/varieties/flower/sosim/' | relative_url }}">소심</a>
+            <a href="{{ '/varieties/flower/etc/' | relative_url }}">기타</a>
           </div>
-
-          <a href="{{ '/varieties/classification/' | relative_url }}">분류별 품종 찾기</a>
         </div>
-      </div>
+        <a href="{{ '/varieties/classification/' | relative_url }}">분류별 품종 찾기</a>
+      </div></div>
     </div>
-
-    <div class="kc-nav-group has-menu">
-      <button class="kc-nav-item kc-nav-button" type="button">춘란 지식 사전</button>
-      <div class="kc-mega-menu">
-        <div class="kc-mega-links">
-          <a href="{{ '/knowledge/leaf/' | relative_url }}">엽예</a>
-          <a href="{{ '/knowledge/leaf/form/' | relative_url }}">잎의 형태·자태</a>
-          <a href="{{ '/knowledge/leaf/width/' | relative_url }}">잎의 폭</a>
-          <a href="{{ '/knowledge/flower/' | relative_url }}">화예</a>
-          <a href="{{ '/knowledge/flower/parts/' | relative_url }}">꽃의 각부 명칭</a>
-          <a href="{{ '/knowledge/flower/form/' | relative_url }}">꽃의 형태</a>
-          <a href="{{ '/knowledge/flower/color/' | relative_url }}">꽃의 색</a>
-          <a href="{{ '/knowledge/flower/pattern/' | relative_url }}">꽃의 무늬</a>
-          <a href="{{ '/knowledge/flower/lip/' | relative_url }}">설판·설점</a>
-          <a href="{{ '/knowledge/flower/other/' | relative_url }}">기타 꽃 형질</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="kc-nav-group has-menu">
-      <button class="kc-nav-item kc-nav-button" type="button">AI 데이터</button>
-      <div class="kc-mega-menu">
-        <div class="kc-mega-links">
-          <a href="{{ '/ai/traits/' | relative_url }}">형질 데이터</a>
-          <a href="{{ '/ai/varieties/' | relative_url }}">품종 연결</a>
-          <a href="{{ '/ai/dataset/' | relative_url }}">이미지 데이터셋</a>
-          <a href="{{ '/ai/training/' | relative_url }}">학습 데이터</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="kc-nav-search">
-      <label class="kc-nav-search-label" for="kc-variety-search">명명품 검색</label>
-      <div class="kc-nav-search-box">
-        <input id="kc-variety-search" type="search" placeholder="품종명 입력" aria-label="명명품 품종명 검색">
-        <span class="kc-nav-search-icon" aria-hidden="true">⌕</span>
-      </div>
-    </div>
+    <div class="kc-nav-group has-menu"><button class="kc-nav-item kc-nav-button" type="button">춘란 지식 사전</button><div class="kc-mega-menu"><div class="kc-mega-links">
+      <a href="{{ '/knowledge/leaf/' | relative_url }}">엽예</a><a href="{{ '/knowledge/leaf/form/' | relative_url }}">잎의 형태·자태</a><a href="{{ '/knowledge/leaf/width/' | relative_url }}">잎의 폭</a><a href="{{ '/knowledge/flower/' | relative_url }}">화예</a><a href="{{ '/knowledge/flower/parts/' | relative_url }}">꽃의 각부 명칭</a><a href="{{ '/knowledge/flower/form/' | relative_url }}">꽃의 형태</a><a href="{{ '/knowledge/flower/color/' | relative_url }}">꽃의 색</a><a href="{{ '/knowledge/flower/pattern/' | relative_url }}">꽃의 무늬</a><a href="{{ '/knowledge/flower/lip/' | relative_url }}">설판·설점</a><a href="{{ '/knowledge/flower/other/' | relative_url }}">기타 꽃 형질</a>
+    </div></div></div>
+    <div class="kc-nav-group has-menu"><button class="kc-nav-item kc-nav-button" type="button">AI 데이터</button><div class="kc-mega-menu"><div class="kc-mega-links">
+      <a href="{{ '/ai/traits/' | relative_url }}">형질 데이터</a><a href="{{ '/ai/varieties/' | relative_url }}">품종 연결</a><a href="{{ '/ai/dataset/' | relative_url }}">이미지 데이터셋</a><a href="{{ '/ai/training/' | relative_url }}">학습 데이터</a>
+    </div></div></div>
+    <div class="kc-nav-search"><label class="kc-nav-search-label" for="kc-variety-search">명명품 검색</label><div class="kc-nav-search-box"><input id="kc-variety-search" type="search" placeholder="품종명 입력" aria-label="명명품 품종명 검색"><span class="kc-nav-search-icon" aria-hidden="true">⌕</span></div></div>
   </div>
 </nav>
