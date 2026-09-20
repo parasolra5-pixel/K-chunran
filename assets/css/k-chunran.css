@@ -309,7 +309,7 @@ a { color: inherit; }
 
 .kc-home-card span {
   color: var(--kc-muted);
-  font-size: 0.968rem;
+  font-size: 0.88rem;
 }
 
 .kc-home-varieties {
@@ -1024,7 +1024,7 @@ a { color: inherit; }
   max-width: 680px;
   margin: 0;
   color: var(--kc-muted);
-  font-size: 1.012rem;
+  font-size: 0.92rem;
 }
 
 .kc-page-summary {
@@ -1054,7 +1054,7 @@ a { color: inherit; }
 .kc-page-summary > span:last-child {
   margin-top: 3px;
   color: var(--kc-muted);
-  font-size: 0.858rem;
+  font-size: 0.78rem;
 }
 
 .kc-page-section {
@@ -1594,7 +1594,7 @@ a { color: inherit; }
 .kc-variety-list-item span {
   margin-top: 3px;
   color: var(--kc-muted);
-  font-size: .748rem;
+  font-size: .68rem;
 }
 
 .kc-variety-list-item i {
@@ -2580,28 +2580,4 @@ a { color: inherit; }
   .kc-variety-trait-wide {
     grid-column: auto;
   }
-}
-
-
-/* Readability: secondary catalog text 1.3x */
-.kc-section-note,
-.kc-named-meta em,
-.kc-named-meta small,
-.kc-named-note p:last-child,
-.kc-variety-list-item span,
-.kc-variety-hanja,
-.kc-page-summary-label,
-.kc-jungtu-observe span,
-.kc-jungtu-variety span,
-.kc-jungtu-variety em,
-.kc-jungtu-variety small,
-.kc-jungtu-trait-card span,
-.kc-form-observe span,
-.kc-form-card small,
-.kc-form-card p,
-.kc-form-axis-grid span,
-.kc-structure-parts span,
-.kc-structure-observe p,
-.kc-structure-axis span {
-  font-size: 1.1em;
 }
