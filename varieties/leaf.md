@@ -20,16 +20,16 @@ permalink: /varieties/leaf/
   <div style="display:grid; gap:1.5rem;">
     <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;"><h3 style="margin:0 0 1rem; font-size:1.35rem;">무늬로 보기</h3><div class="kc-leaf-grid">
       <a id="category-jungtu" class="kc-leaf-class" href="{{ '/varieties/leaf/jungtu/' | relative_url }}"><span class="kc-leaf-number">01</span><strong>중투</strong><small>中透</small><p>잎의 중앙부를 중심으로 나타나는 무늬</p><span class="kc-leaf-arrow">→</span></a>
-      <a id="category-bokryun" class="kc-leaf-class" href="#category-bokryun"><span class="kc-leaf-number">02</span><strong>복륜</strong><small>覆輪</small><p>잎 가장자리를 따라 나타나는 무늬</p><span class="kc-leaf-arrow">→</span></a>
-      <a id="category-sanban" class="kc-leaf-class" href="#category-sanban"><span class="kc-leaf-number">03</span><strong>산반</strong><small>散斑</small><p>선과 반점이 산재하는 무늬</p><span class="kc-leaf-arrow">→</span></a>
-      <a id="category-ho" class="kc-leaf-class" href="#category-ho"><span class="kc-leaf-number">04</span><strong>호</strong><small>縞</small><p>잎에 선상으로 나타나는 무늬</p><span class="kc-leaf-arrow">→</span></a>
+      <a id="category-bokryun" class="kc-leaf-class" href="{{ '/varieties/leaf/bokryun/' | relative_url }}"><span class="kc-leaf-number">02</span><strong>복륜</strong><small>覆輪</small><p>잎 가장자리를 따라 나타나는 무늬</p><span class="kc-leaf-arrow">→</span></a>
+      <a id="category-sanban" class="kc-leaf-class" href="{{ '/varieties/leaf/sanban/' | relative_url }}"><span class="kc-leaf-number">03</span><strong>산반</strong><small>散斑</small><p>선과 반점이 산재하는 무늬</p><span class="kc-leaf-arrow">→</span></a>
+      <a id="category-ho" class="kc-leaf-class" href="{{ '/varieties/leaf/ho/' | relative_url }}"><span class="kc-leaf-number">04</span><strong>호</strong><small>縞</small><p>잎에 선상으로 나타나는 무늬</p><span class="kc-leaf-arrow">→</span></a>
       <a id="category-sapiban" class="kc-leaf-class" href="{{ '/varieties/leaf/sapiban/' | relative_url }}"><span class="kc-leaf-number">05</span><strong>사피반</strong><small>蛇皮斑</small><p>사피 계열의 반점 무늬</p><span class="kc-leaf-arrow">→</span></a>
       <a id="category-hopiban" class="kc-leaf-class" href="{{ '/varieties/leaf/hopiban/' | relative_url }}"><span class="kc-leaf-number">06</span><strong>호피반</strong><small>虎皮斑</small><p>호피 계열의 반무늬</p><span class="kc-leaf-arrow">→</span></a>
-      <a id="category-seoban" class="kc-leaf-class" href="#category-seoban"><span class="kc-leaf-number">07</span><strong>서반</strong><small>曙斑</small><p>서반 계열의 엽예 형질</p><span class="kc-leaf-arrow">→</span></a>
+      <a id="category-seoban" class="kc-leaf-class" href="{{ '/varieties/leaf/seoban/' | relative_url }}"><span class="kc-leaf-number">07</span><strong>서반</strong><small>曙斑</small><p>서반 계열의 엽예 형질</p><span class="kc-leaf-arrow">→</span></a>
     </div></section>
     <section style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;"><h3 style="margin:0 0 1rem; font-size:1.35rem;">잎 형태로 보기</h3><div class="kc-leaf-grid">
-      <a id="category-danyeop" class="kc-leaf-class" href="#category-danyeop"><span class="kc-leaf-number">08</span><strong>단엽</strong><small>短葉</small><p>잎의 길이와 형태가 짧은 특성</p><span class="kc-leaf-arrow">→</span></a>
-      <a id="category-hwanyeop" class="kc-leaf-class" href="#category-hwanyeop"><span class="kc-leaf-number">09</span><strong>환엽</strong><small>丸葉</small><p>둥글고 넓은 잎 형태의 특성</p><span class="kc-leaf-arrow">→</span></a>
+      <a id="category-danyeop" class="kc-leaf-class" href="{{ '/varieties/leaf/danyeop/' | relative_url }}"><span class="kc-leaf-number">08</span><strong>단엽</strong><small>短葉</small><p>잎의 길이와 형태가 짧은 특성</p><span class="kc-leaf-arrow">→</span></a>
+      <a id="category-hwanyeop" class="kc-leaf-class" href="{{ '/varieties/leaf/hwanyeop/' | relative_url }}"><span class="kc-leaf-number">09</span><strong>환엽</strong><small>丸葉</small><p>둥글고 넓은 잎 형태의 특성</p><span class="kc-leaf-arrow">→</span></a>
     </div></section>
   </div>
 </section>
