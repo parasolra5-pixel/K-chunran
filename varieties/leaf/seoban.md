@@ -78,6 +78,34 @@ permalink: /varieties/leaf/seoban/
   </div>
 </section>
 
+<section class="kc-leaf-section">
+  <div class="kc-section-heading">
+    <div>
+      <p class="kc-section-kicker">SEOBAN VARIETIES</p>
+      <h2>서반과 연결된 품종</h2>
+    </div>
+    <p class="kc-section-note">현재 K-Chunran 데이터에 연결된 품종입니다.</p>
+  </div>
+  <div class="kc-jungtu-variety-list">
+    {% for post in site.posts %}
+      {% assign d = site.data.varieties[post.variety_id] %}
+      {% if d %}
+        {% assign patterns = d.classification.pattern %}
+        {% if patterns contains "seoban" %}
+          {% assign class_label = site.data.categories.cultivar_class[d.cultivar_class] %}
+          <a class="kc-jungtu-variety" href="{{ post.url | relative_url }}">
+            <strong>{{ d.name }}</strong>
+            {% if d.hanja %}<span>{{ d.hanja }}</span>{% endif %}
+            {% if class_label %}<em>{{ class_label }}</em>{% endif %}
+            {% if d.traits.leaf.form %}<small>{{ d.traits.leaf.form }}</small>{% endif %}
+            <i>→</i>
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
 <section class="kc-leaf-section kc-jungtu-data">
   <div>
     <p class="kc-section-kicker">AI DATA CONNECTION</p>
