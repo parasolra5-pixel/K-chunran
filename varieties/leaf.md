@@ -69,23 +69,6 @@ permalink: /varieties/leaf/
       </div>
     </section>
 
-    <section id="category-leaf-attitude" style="border-top:1px solid rgba(0,0,0,0.14); padding-top:1.2rem;">
-      <h3 style="margin:0 0 1rem; font-size:1.35rem;">잎 자태·형질</h3>
-      <div class="kc-leaf-grid">
-        <a class="kc-leaf-class" href="#category-leaf-attitude">
-          <span class="kc-leaf-number">10</span><strong>입엽</strong><small>立葉</small><p>잎이 곧게 서는 자태</p><span class="kc-leaf-arrow">→</span>
-        </a>
-        <a class="kc-leaf-class" href="#category-leaf-attitude">
-          <span class="kc-leaf-number">11</span><strong>수엽</strong><small>垂葉</small><p>잎이 아래로 늘어지는 자태</p><span class="kc-leaf-arrow">→</span>
-        </a>
-        <a class="kc-leaf-class" href="#category-leaf-attitude">
-          <span class="kc-leaf-number">12</span><strong>노수엽</strong><small>露水葉</small><p>잎 끝과 자태에서 관찰되는 형질</p><span class="kc-leaf-arrow">→</span>
-        </a>
-        <a class="kc-leaf-class" href="#category-leaf-attitude">
-          <span class="kc-leaf-number">13</span><strong>권엽</strong><small>卷葉</small><p>잎이 말리는 형태의 특성</p><span class="kc-leaf-arrow">→</span>
-        </a>
-      </div>
-    </section>
   </div>
 </section>
 
