@@ -1,0 +1,56 @@
+{
+  "id": "manmulsang",
+  "name": "만물상",
+  "cultivar_class": "sanban",
+
+  "registration": {
+    "status": null,
+    "number": null,
+    "authority": null,
+    "year": null
+  },
+
+  "classification": {
+    "leaf_form": [],
+    "pattern": ["sanban"],
+    "leaf_tip": [],
+    "pattern_position": [],
+    "pattern_timing": null
+  },
+
+  "traits": {
+    "leaf": {
+      "length": null,
+      "width": null,
+      "thickness": null,
+      "form": null,
+      "tip": null,
+      "texture": null,
+      "base_color": null,
+      "variegation_color": null,
+      "notes": null
+    },
+    "flower": {
+      "type": null,
+      "color": null,
+      "notes": null
+    }
+  },
+
+  "market": {
+    "status": "unknown",
+    "target": null,
+    "notes": null
+  },
+
+  "images": [],
+  "observations": [],
+
+  "ai": {
+    "human_labels": [],
+    "tags": [],
+    "notes": "사용자 지정 산반 품종 목록에 우선 연결. 세부 형질과 등록 정보는 출처 확인 후 기록."
+  },
+
+  "sources": []
+}
