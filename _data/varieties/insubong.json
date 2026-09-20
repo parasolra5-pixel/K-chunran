@@ -1,0 +1,51 @@
+{
+  "id": "insubong",
+  "name": "인수봉",
+  "cultivar_class": null,
+  "registration": {
+    "status": null,
+    "number": null,
+    "authority": null,
+    "year": null
+  },
+  "classification": {
+    "leaf_form": [],
+    "pattern": [
+      "bokryun"
+    ],
+    "leaf_tip": [],
+    "pattern_position": [],
+    "pattern_timing": null
+  },
+  "traits": {
+    "leaf": {
+      "length": null,
+      "width": null,
+      "thickness": null,
+      "form": null,
+      "tip": null,
+      "texture": null,
+      "base_color": null,
+      "variegation_color": null,
+      "notes": null
+    },
+    "flower": {
+      "type": null,
+      "color": null,
+      "notes": null
+    }
+  },
+  "market": {
+    "status": "unknown",
+    "target": null,
+    "notes": null
+  },
+  "images": [],
+  "observations": [],
+  "ai": {
+    "human_labels": [],
+    "tags": [],
+    "notes": "한국춘란 복륜반으로 확인. 세부 형질과 등록 정보는 출처 확인 후 기록."
+  },
+  "sources": []
+}
