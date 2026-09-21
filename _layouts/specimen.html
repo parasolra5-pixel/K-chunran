@@ -15,6 +15,24 @@ layout: default
   </header>
 
   <section class="kc-section">
+    <h2>사진</h2>
+    {% if s.images and s.images.size > 0 %}
+      <div class="kc-specimen-images">
+        {% for image in s.images %}
+          <figure>
+            <img src="{{ image.url | relative_url }}" alt="{{ image.alt | default: s.naming.display_name | default: s.specimen_name }}">
+            {% if image.caption %}
+              <figcaption>{{ image.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>등록된 사진이 없습니다.</p>
+    {% endif %}
+  </section>
+
+  <section class="kc-section">
     <h2>표본 정보</h2>
     <dl>
       <dt>기록명</dt>
