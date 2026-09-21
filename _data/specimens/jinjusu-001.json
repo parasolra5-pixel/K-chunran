@@ -1,0 +1,62 @@
+{
+  "specimen_id": "specimen-jinjusu-001",
+  "specimen_name": "진주수",
+  "naming": {
+    "status": "named",
+    "display_name": "진주수",
+    "prefix": null,
+    "trait_name": "중투",
+    "cultivar_id": "jinjusu"
+  },
+  "classification": {
+    "category": "엽예품",
+    "leaf_form": [],
+    "pattern": ["중투"],
+    "flower_type": [],
+    "flower_color": []
+  },
+  "traits": {
+    "leaf": {
+      "length": null,
+      "width": null,
+      "thickness": null,
+      "form": null,
+      "tip": null,
+      "texture": null,
+      "base_color": null,
+      "variegation_color": null,
+      "notes": null
+    },
+    "flower": {
+      "type": null,
+      "color": null,
+      "notes": null
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/specimens/IMG_6999.jpeg",
+      "alt": "진주수 중투 표본",
+      "caption": "진주수 · 중투 표본"
+    }
+  ],
+  "observations": [],
+  "contributor": {
+    "display_name": null,
+    "type": null
+  },
+  "verification": {
+    "status": "unverified",
+    "verified_by": null,
+    "notes": null
+  },
+  "ai": {
+    "training_eligible": false,
+    "labels": ["중투"],
+    "candidate_cultivars": ["jinjusu"],
+    "notes": null
+  },
+  "sources": [],
+  "created_at": null,
+  "updated_at": null
+}
