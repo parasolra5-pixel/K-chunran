@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+{% assign s = site.data.specimens[page.specimen_id] %}
+
+<article class="kc-variety-page">
+  <header class="kc-page-header">
+    <p class="kc-eyebrow">SPECIMEN CATALOG · DETAIL</p>
+    <h1>{{ s.naming.display_name | default: s.specimen_name }}</h1>
+    {% if s.naming.status == "unnamed" %}
+      <p class="kc-page-lead">무명 표본 · 관찰 기록</p>
+    {% endif %}
+    <p class="kc-meta">표본 ID · {{ s.specimen_id }}</p>
+  </header>
+
+  <section class="kc-section">
+    <h2>표본 정보</h2>
+    <dl>
+      <dt>표본명</dt>
+      <dd>{{ s.naming.display_name | default: s.specimen_name }}</dd>
+      <dt>분류</dt>
+      <dd>{{ s.classification.category | default: "미분류" }}</dd>
+      <dt>무늬</dt>
+      <dd>
+        {% if s.classification.pattern and s.classification.pattern.size > 0 %}
+          {{ s.classification.pattern | join: " · " }}
+        {% else %}
+          미기록
+        {% endif %}
+      </dd>
+    </dl>
+  </section>
+
+  <section class="kc-section">
+    <h2>관찰 형질</h2>
+    <dl>
+      <dt>잎 길이</dt>
+      <dd>{{ s.traits.leaf.length | default: "미기록" }}</dd>
+      <dt>잎 폭</dt>
+      <dd>{{ s.traits.leaf.width | default: "미기록" }}</dd>
+      <dt>잎 형태</dt>
+      <dd>{{ s.traits.leaf.form | default: "미기록" }}</dd>
+      <dt>비고</dt>
+      <dd>{{ s.traits.leaf.notes | default: "미기록" }}</dd>
+    </dl>
+  </section>
+
+  <section class="kc-section">
+    <h2>등록 및 검증</h2>
+    <dl>
+      <dt>등록자</dt>
+      <dd>{{ s.contributor.display_name | default: "미기록" }}</dd>
+      <dt>검증 상태</dt>
+      <dd>{{ s.verification.status | default: "미검토" }}</dd>
+      <dt>현재 품종 연결</dt>
+      <dd>
+        {% if s.naming.cultivar_id %}
+          <a href="{{ '/varieties/' | append: s.naming.cultivar_id | relative_url }}">{{ s.naming.cultivar_id }}</a>
+        {% else %}
+          없음
+        {% endif %}
+      </dd>
+    </dl>
+  </section>
+</article>
